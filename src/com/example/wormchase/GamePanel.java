@@ -1,4 +1,4 @@
-package com.example.wormchase;
+/**package com.example.wormchase;
 
 import com.sun.j3d.utils.timer.J3DTimer;
 
@@ -65,7 +65,7 @@ public class GamePanel extends JPanel implements Runnable {
         isPaused = true;
     }
 
-    //@Override
+    @Override
     public void run() {
         long beforeTime, afterTime, timeDiff, sleepTime;
         long overSleepTime = 0L;
@@ -192,4 +192,4 @@ public class GamePanel extends JPanel implements Runnable {
             System.out.println("Graphics context error : " + e);
         }
     }
-}
+}**/

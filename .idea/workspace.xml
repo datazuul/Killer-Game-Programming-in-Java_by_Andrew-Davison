@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="336bb76c-3f91-4b72-9d94-9b65a2ecb8fb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/test/MyTimerTask.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/test/PaintPanel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/test/SleepAcc.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/test/StopWatch.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/test/SwingTimerTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/test/Test2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/test/Test3.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/test/Test4.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/test/Test5.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/test/Test6.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/test/TimerRes.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/test/UtilTimerClass.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/wormchase/Obstacles.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/wormchase/Worm.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/wormchase/WormChaseApplet.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/wormchase/WormChaseApplet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/wormchase/WormPanel.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/wormchase/GamePanel.java" afterPath="$PROJECT_DIR$/src/com/example/wormchase/GamePanel.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,33 +21,81 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GamePanel.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/example/wormchase/GamePanel.java">
+      <file leaf-file-name="WormChaseApplet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/wormchase/WormChaseApplet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="194" column="1" lean-forward="true" selection-start-line="194" selection-start-column="1" selection-end-line="194" selection-end-column="1" />
+            <state relative-caret-position="90">
+              <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#959#1168#0" expanded="true" />
-                <element signature="e#1167#1168#0" expanded="true" />
-                <element signature="e#1455#1456#0" expanded="true" />
-                <element signature="e#1487#1488#0" expanded="true" />
-                <element signature="method#stopGame#0;class#GamePanel#0" expanded="false" />
-                <element signature="e#1610#1611#0" expanded="true" />
-                <element signature="e#1641#1642#0" expanded="true" />
-                <element signature="method#gameUpdate#0;class#GamePanel#0" expanded="false" />
-                <element signature="e#3892#3893#0" expanded="true" />
-                <element signature="e#3931#3932#0" expanded="true" />
-                <element signature="e#4169#4698#0" expanded="true" />
-                <element signature="e#4697#4698#0" expanded="true" />
-                <marker date="1519017450208" expanded="true" signature="754:1176" ph="{...}" />
-                <marker date="1519017450208" expanded="false" signature="1206:1261" ph="{...}" />
-                <marker date="1519017450208" expanded="false" signature="1292:1424" ph="{...}" />
-                <marker date="1519017450208" expanded="false" signature="3383:3845" ph="{...}" />
-                <marker date="1519017450208" expanded="true" signature="3976:4103" ph="{...}" />
-                <marker date="1519017450208" expanded="false" signature="4144:4706" ph="{...}" />
-                <marker date="1519017450208" expanded="false" signature="4749:4805" ph="{...}" />
-                <marker date="1519017450208" expanded="false" signature="4838:5211" ph="{...}" />
+                <element signature="e#408#461#0" expanded="false" />
+                <element signature="e#1586#1587#0" expanded="true" />
+                <element signature="e#1638#1639#0" expanded="true" />
+                <element signature="e#1678#1679#0" expanded="true" />
+                <element signature="e#1740#1741#0" expanded="true" />
+                <element signature="e#2700#2701#0" expanded="true" />
+                <element signature="e#2731#2732#0" expanded="true" />
+                <element signature="e#2757#2758#0" expanded="true" />
+                <element signature="e#2787#2788#0" expanded="true" />
+                <element signature="e#2816#2817#0" expanded="true" />
+                <element signature="e#2845#2846#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Worm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/wormchase/Worm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="162" column="5" lean-forward="false" selection-start-line="162" selection-start-column="5" selection-end-line="162" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Obstacles.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/wormchase/Obstacles.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="41" lean-forward="false" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1178#1179#0" expanded="true" />
+                <element signature="e#1213#1214#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WormChaseApplet.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/wormchase/WormChaseApplet.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="37" lean-forward="false" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WormPanel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/wormchase/WormPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="209" column="20" lean-forward="true" selection-start-line="209" selection-start-column="20" selection-end-line="209" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#WormPanel#0;class#WormPanel#0" expanded="false" />
+                <element signature="method#readyForTermination#0;class#WormPanel#0" expanded="false" />
+                <element signature="method#addNotify#0;class#WormPanel#0" expanded="false" />
+                <element signature="method#testPress#0;class#WormPanel#0" expanded="false" />
+                <element signature="method#gameUpdate#0;class#WormPanel#0" expanded="false" />
+                <element signature="method#gameRender#0;class#WormPanel#0" expanded="false" />
+                <element signature="method#gameOverMessage#0;class#WormPanel#0" expanded="false" />
+                <element signature="method#paintScreen#0;class#WormPanel#0" expanded="false" />
+                <element signature="method#storeStats#0;class#WormPanel#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -63,6 +107,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -92,6 +137,12 @@
         <option value="$PROJECT_DIR$/src/com/example/test/UtilTimerClass.java" />
         <option value="$PROJECT_DIR$/src/com/example/test/SwingTimerTest.java" />
         <option value="$PROJECT_DIR$/src/com/example/wormchase/GamePanel.java" />
+        <option value="$PROJECT_DIR$/src/com/example/wormchase/WormChase.java" />
+        <option value="$PROJECT_DIR$/src/com/example/wormchase/Worm.java" />
+        <option value="$PROJECT_DIR$/src/com/example/wormchase/WormPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/example/wormchase/WormChaseApplet.html" />
+        <option value="$PROJECT_DIR$/src/com/example/wormchase/WormChaseApplet.java" />
+        <option value="$PROJECT_DIR$/src/com/example/wormchase/Obstacles.java" />
       </list>
     </option>
   </component>
@@ -125,14 +176,61 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Killer Game Programming in Java_Andrew Davison" type="b2602c69:ProjectViewProjectNode" />
               <item name="Killer Game Programming in Java_Andrew Davison" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Killer Game Programming in Java_Andrew Davison" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Killer Game Programming in Java_Andrew Davison" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Killer Game Programming in Java_Andrew Davison" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Killer Game Programming in Java_Andrew Davison" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Killer Game Programming in Java_Andrew Davison" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Killer Game Programming in Java_Andrew Davison" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="Killer Game Programming in Java_Andrew Davison" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Killer Game Programming in Java_Andrew Davison" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Killer Game Programming in Java_Andrew Davison" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="Killer Game Programming in Java_Andrew Davison" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Killer Game Programming in Java_Andrew Davison" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Killer Game Programming in Java_Andrew Davison" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="Killer Game Programming in Java_Andrew Davison" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Killer Game Programming in Java_Andrew Davison" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Killer Game Programming in Java_Andrew Davison" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="Killer Game Programming in Java_Andrew Davison" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="wormchase" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Killer Game Programming in Java_Andrew Davison" type="b2602c69:ProjectViewProjectNode" />
@@ -160,8 +258,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -172,6 +268,13 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/out/production/Killer Game Programming in Java_Andrew Davison/com/example/wormchase" />
+      <recent name="$PROJECT_DIR$/src/com/example/wormchase" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -185,7 +288,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UtilTimerClass">
+  <component name="RunManager" selected="Applet.WormChaseApplet">
+    <configuration name="WormChaseApplet" type="Applet" factoryName="Applet" temporary="true">
+      <option name="HTML_USED" value="false" />
+      <option name="MAIN_CLASS_NAME" value="com.example.wormchase.WormChaseApplet" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module name="Killer Game Programming in Java_Andrew Davison">
+        <option name="moduleName" value="Killer Game Programming in Java_Andrew Davison" />
+      </module>
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -231,44 +344,6 @@
       <module name="Killer Game Programming in Java_Andrew Davison" />
       <envs />
     </configuration>
-    <configuration name="Test6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.example.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.example.test.Test6" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Killer Game Programming in Java_Andrew Davison" />
-      <envs />
-    </configuration>
-    <configuration name="TimerRes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.example.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.example.test.TimerRes" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Killer Game Programming in Java_Andrew Davison" />
-      <envs />
-    </configuration>
     <configuration name="UtilTimerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -277,6 +352,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.example.test.UtilTimerClass" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Killer Game Programming in Java_Andrew Davison" />
+      <envs />
+    </configuration>
+    <configuration name="WormChaseApplet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.example.wormchase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.example.wormchase.WormChaseApplet" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -363,19 +457,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.TimerRes" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Test6" />
-      <item index="2" class="java.lang.String" itemvalue="Application.SleepAcc" />
-      <item index="3" class="java.lang.String" itemvalue="Application.SwingTimerTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.UtilTimerClass" />
+      <item index="0" class="java.lang.String" itemvalue="Application.SleepAcc" />
+      <item index="1" class="java.lang.String" itemvalue="Application.SwingTimerTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.UtilTimerClass" />
+      <item index="3" class="java.lang.String" itemvalue="Application.WormChaseApplet" />
+      <item index="4" class="java.lang.String" itemvalue="Applet.WormChaseApplet" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.UtilTimerClass" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SwingTimerTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SleepAcc" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Test6" />
-        <item index="4" class="java.lang.String" itemvalue="Application.TimerRes" />
+        <item index="0" class="java.lang.String" itemvalue="Applet.WormChaseApplet" />
+        <item index="1" class="java.lang.String" itemvalue="Application.WormChaseApplet" />
+        <item index="2" class="java.lang.String" itemvalue="Application.UtilTimerClass" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SwingTimerTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SleepAcc" />
       </list>
     </recent_temporary>
   </component>
@@ -399,16 +493,20 @@
       <workItem from="1518962563307" duration="1073000" />
       <workItem from="1518964460996" duration="1232000" />
       <workItem from="1518972122875" duration="3040000" />
-      <workItem from="1518995148740" duration="19076000" />
+      <workItem from="1518995148740" duration="19665000" />
+      <workItem from="1519058332296" duration="2106000" />
+      <workItem from="1519075148320" duration="14953000" />
+      <workItem from="1519100482134" duration="14033000" />
+      <workItem from="1519134557780" duration="5826000" />
+      <workItem from="1519177063162" duration="6274000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45391000" />
+    <option name="totallyTimeSpent" value="89172000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1303" height="780" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -423,8 +521,9 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24980783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24980783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8018018" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -436,7 +535,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -446,36 +544,128 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/example/wormchase/GamePanel.java</url>
+          <line>151</line>
+          <properties class="com.example.wormchase.GamePanel" method="paintComponen">
+            <option name="EMULATED" value="true" />
+          </properties>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/example/wormchase/WormChaseApplet.java</url>
+          <line>15</line>
+          <properties class="com.example.wormchase.WormChaseApplet" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/example/wormchase/WormChaseApplet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#408#461#0" expanded="false" />
+            <element signature="e#1586#1587#0" expanded="true" />
+            <element signature="e#1638#1639#0" expanded="true" />
+            <element signature="e#1678#1679#0" expanded="true" />
+            <element signature="e#1740#1741#0" expanded="true" />
+            <element signature="e#2700#2701#0" expanded="true" />
+            <element signature="e#2731#2732#0" expanded="true" />
+            <element signature="e#2757#2758#0" expanded="true" />
+            <element signature="e#2787#2788#0" expanded="true" />
+            <element signature="e#2816#2817#0" expanded="true" />
+            <element signature="e#2845#2846#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/wormchase/WormPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3978">
+          <caret line="221" column="5" lean-forward="true" selection-start-line="221" selection-start-column="5" selection-end-line="221" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#WormPanel#0;class#WormPanel#0" expanded="false" />
+            <element signature="method#readyForTermination#0;class#WormPanel#0" expanded="false" />
+            <element signature="method#addNotify#0;class#WormPanel#0" expanded="false" />
+            <element signature="method#testPress#0;class#WormPanel#0" expanded="false" />
+            <element signature="method#gameUpdate#0;class#WormPanel#0" expanded="false" />
+            <element signature="method#gameRender#0;class#WormPanel#0" expanded="false" />
+            <element signature="method#gameOverMessage#0;class#WormPanel#0" expanded="false" />
+            <element signature="method#paintScreen#0;class#WormPanel#0" expanded="false" />
+            <element signature="method#storeStats#0;class#WormPanel#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/wormchase/WormChaseApplet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#408#461#0" expanded="false" />
+            <element signature="e#1586#1587#0" expanded="true" />
+            <element signature="e#1638#1639#0" expanded="true" />
+            <element signature="e#1678#1679#0" expanded="true" />
+            <element signature="e#1740#1741#0" expanded="true" />
+            <element signature="e#2700#2701#0" expanded="true" />
+            <element signature="e#2731#2732#0" expanded="true" />
+            <element signature="e#2757#2758#0" expanded="true" />
+            <element signature="e#2787#2788#0" expanded="true" />
+            <element signature="e#2816#2817#0" expanded="true" />
+            <element signature="e#2845#2846#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/wormchase/GamePanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1519060075976" expanded="false" signature="757:1179" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="1209:1264" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="1295:1427" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="1533:1583" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="1683:3264" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="3296:3352" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="3384:3846" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="3977:4104" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="4145:4707" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="4750:4806" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="4839:5212" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/wormchase/GamePanel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1368">
           <caret line="149" column="3" lean-forward="false" selection-start-line="149" selection-start-column="3" selection-end-line="149" selection-end-column="3" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#959#1168#0" expanded="true" />
-            <element signature="e#1167#1168#0" expanded="true" />
-            <element signature="e#1455#1456#0" expanded="true" />
-            <element signature="e#1487#1488#0" expanded="true" />
-            <element signature="method#stopGame#0;class#GamePanel#0" expanded="false" />
-            <element signature="e#1610#1611#0" expanded="true" />
-            <element signature="e#1641#1642#0" expanded="true" />
-            <element signature="method#gameUpdate#0;class#GamePanel#0" expanded="false" />
-            <element signature="e#3892#3893#0" expanded="true" />
-            <element signature="e#3931#3932#0" expanded="true" />
-            <element signature="e#4169#4698#0" expanded="true" />
-            <element signature="e#4697#4698#0" expanded="true" />
-            <marker date="1519017450208" expanded="true" signature="754:1176" ph="{...}" />
-            <marker date="1519017450208" expanded="false" signature="1206:1261" ph="{...}" />
-            <marker date="1519017450208" expanded="false" signature="1292:1424" ph="{...}" />
-            <marker date="1519017450208" expanded="false" signature="3383:3845" ph="{...}" />
-            <marker date="1519017450208" expanded="true" signature="3976:4103" ph="{...}" />
-            <marker date="1519017450208" expanded="false" signature="4144:4706" ph="{...}" />
-            <marker date="1519017450208" expanded="false" signature="4749:4805" ph="{...}" />
-            <marker date="1519017450208" expanded="false" signature="4838:5211" ph="{...}" />
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1519060075976" expanded="false" signature="757:1179" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="1209:1264" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="1295:1427" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="1533:1583" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="1683:3264" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="3296:3352" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="3384:3846" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="3977:4104" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="4145:4707" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="4750:4806" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="4839:5212" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -484,7 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -493,27 +682,18 @@
         <state relative-caret-position="1368">
           <caret line="149" column="3" lean-forward="false" selection-start-line="149" selection-start-column="3" selection-end-line="149" selection-end-column="3" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#959#1168#0" expanded="true" />
-            <element signature="e#1167#1168#0" expanded="true" />
-            <element signature="e#1455#1456#0" expanded="true" />
-            <element signature="e#1487#1488#0" expanded="true" />
-            <element signature="method#stopGame#0;class#GamePanel#0" expanded="false" />
-            <element signature="e#1610#1611#0" expanded="true" />
-            <element signature="e#1641#1642#0" expanded="true" />
-            <element signature="method#gameUpdate#0;class#GamePanel#0" expanded="false" />
-            <element signature="e#3892#3893#0" expanded="true" />
-            <element signature="e#3931#3932#0" expanded="true" />
-            <element signature="e#4169#4698#0" expanded="true" />
-            <element signature="e#4697#4698#0" expanded="true" />
-            <marker date="1519017450208" expanded="true" signature="754:1176" ph="{...}" />
-            <marker date="1519017450208" expanded="false" signature="1206:1261" ph="{...}" />
-            <marker date="1519017450208" expanded="false" signature="1292:1424" ph="{...}" />
-            <marker date="1519017450208" expanded="false" signature="3383:3845" ph="{...}" />
-            <marker date="1519017450208" expanded="true" signature="3976:4103" ph="{...}" />
-            <marker date="1519017450208" expanded="false" signature="4144:4706" ph="{...}" />
-            <marker date="1519017450208" expanded="false" signature="4749:4805" ph="{...}" />
-            <marker date="1519017450208" expanded="false" signature="4838:5211" ph="{...}" />
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1519060075976" expanded="false" signature="757:1179" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="1209:1264" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="1295:1427" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="1533:1583" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="1683:3264" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="3296:3352" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="3384:3846" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="3977:4104" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="4145:4707" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="4750:4806" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="4839:5212" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -522,7 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -531,27 +710,18 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#959#1168#0" expanded="true" />
-            <element signature="e#1167#1168#0" expanded="true" />
-            <element signature="e#1455#1456#0" expanded="true" />
-            <element signature="e#1487#1488#0" expanded="true" />
-            <element signature="method#stopGame#0;class#GamePanel#0" expanded="false" />
-            <element signature="e#1610#1611#0" expanded="true" />
-            <element signature="e#1641#1642#0" expanded="true" />
-            <element signature="method#gameUpdate#0;class#GamePanel#0" expanded="false" />
-            <element signature="e#3892#3893#0" expanded="true" />
-            <element signature="e#3931#3932#0" expanded="true" />
-            <element signature="e#4169#4698#0" expanded="true" />
-            <element signature="e#4697#4698#0" expanded="true" />
-            <marker date="1519017450208" expanded="true" signature="754:1176" ph="{...}" />
-            <marker date="1519017450208" expanded="false" signature="1206:1261" ph="{...}" />
-            <marker date="1519017450208" expanded="false" signature="1292:1424" ph="{...}" />
-            <marker date="1519017450208" expanded="false" signature="3383:3845" ph="{...}" />
-            <marker date="1519017450208" expanded="true" signature="3976:4103" ph="{...}" />
-            <marker date="1519017450208" expanded="false" signature="4144:4706" ph="{...}" />
-            <marker date="1519017450208" expanded="false" signature="4749:4805" ph="{...}" />
-            <marker date="1519017450208" expanded="false" signature="4838:5211" ph="{...}" />
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1519060075976" expanded="false" signature="757:1179" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="1209:1264" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="1295:1427" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="1533:1583" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="1683:3264" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="3296:3352" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="3384:3846" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="3977:4104" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="4145:4707" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="4750:4806" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="4839:5212" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -561,27 +731,18 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#959#1168#0" expanded="true" />
-            <element signature="e#1167#1168#0" expanded="true" />
-            <element signature="e#1455#1456#0" expanded="true" />
-            <element signature="e#1487#1488#0" expanded="true" />
-            <element signature="method#stopGame#0;class#GamePanel#0" expanded="false" />
-            <element signature="e#1610#1611#0" expanded="true" />
-            <element signature="e#1641#1642#0" expanded="true" />
-            <element signature="method#gameUpdate#0;class#GamePanel#0" expanded="false" />
-            <element signature="e#3892#3893#0" expanded="true" />
-            <element signature="e#3931#3932#0" expanded="true" />
-            <element signature="e#4169#4698#0" expanded="true" />
-            <element signature="e#4697#4698#0" expanded="true" />
-            <marker date="1519017450208" expanded="true" signature="754:1176" ph="{...}" />
-            <marker date="1519017450208" expanded="false" signature="1206:1261" ph="{...}" />
-            <marker date="1519017450208" expanded="false" signature="1292:1424" ph="{...}" />
-            <marker date="1519017450208" expanded="false" signature="3383:3845" ph="{...}" />
-            <marker date="1519017450208" expanded="true" signature="3976:4103" ph="{...}" />
-            <marker date="1519017450208" expanded="false" signature="4144:4706" ph="{...}" />
-            <marker date="1519017450208" expanded="false" signature="4749:4805" ph="{...}" />
-            <marker date="1519017450208" expanded="false" signature="4838:5211" ph="{...}" />
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1519060075976" expanded="false" signature="757:1179" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="1209:1264" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="1295:1427" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="1533:1583" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="1683:3264" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="3296:3352" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="3384:3846" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="3977:4104" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="4145:4707" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="4750:4806" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="4839:5212" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -619,12 +780,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#295#296#0" expanded="false" />
-            <element signature="e#350#351#0" expanded="false" />
-            <element signature="e#376#377#0" expanded="false" />
-            <element signature="e#461#462#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -632,9 +787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
           <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -642,7 +794,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -650,7 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -658,7 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -666,9 +815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
           <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -676,9 +822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -686,10 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding>
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -697,44 +836,104 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="129" column="0" lean-forward="true" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#SwingTimerTest#0;class#SwingTimerTest#0" expanded="false" />
-            <element signature="method#actionPerformed#0;class#SwingTimerTest#0" expanded="false" />
-            <element signature="method#paintComponent#0;class#SwingTimerTest#0" expanded="false" />
-            <element signature="method#sillyTask#0;class#SwingTimerTest#0" expanded="false" />
-            <element signature="method#reportStats#0;class#SwingTimerTest#0" expanded="false" />
-            <element signature="method#main#0;class#SwingTimerTest#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/wormchase/GamePanel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
-          <caret line="194" column="1" lean-forward="true" selection-start-line="194" selection-start-column="1" selection-end-line="194" selection-end-column="1" />
+          <caret line="194" column="4" lean-forward="false" selection-start-line="194" selection-start-column="4" selection-end-line="194" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1519060075976" expanded="false" signature="757:1179" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="1209:1264" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="1295:1427" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="1533:1583" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="1683:3264" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="3296:3352" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="3384:3846" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="3977:4104" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="4145:4707" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="4750:4806" ph="{...}" />
+            <marker date="1519060075976" expanded="false" signature="4839:5212" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/wormchase/Worm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="162" column="5" lean-forward="false" selection-start-line="162" selection-start-column="5" selection-end-line="162" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#959#1168#0" expanded="true" />
-            <element signature="e#1167#1168#0" expanded="true" />
-            <element signature="e#1455#1456#0" expanded="true" />
-            <element signature="e#1487#1488#0" expanded="true" />
-            <element signature="method#stopGame#0;class#GamePanel#0" expanded="false" />
-            <element signature="e#1610#1611#0" expanded="true" />
-            <element signature="e#1641#1642#0" expanded="true" />
-            <element signature="method#gameUpdate#0;class#GamePanel#0" expanded="false" />
-            <element signature="e#3892#3893#0" expanded="true" />
-            <element signature="e#3931#3932#0" expanded="true" />
-            <element signature="e#4169#4698#0" expanded="true" />
-            <element signature="e#4697#4698#0" expanded="true" />
-            <marker date="1519017450208" expanded="true" signature="754:1176" ph="{...}" />
-            <marker date="1519017450208" expanded="false" signature="1206:1261" ph="{...}" />
-            <marker date="1519017450208" expanded="false" signature="1292:1424" ph="{...}" />
-            <marker date="1519017450208" expanded="false" signature="3383:3845" ph="{...}" />
-            <marker date="1519017450208" expanded="true" signature="3976:4103" ph="{...}" />
-            <marker date="1519017450208" expanded="false" signature="4144:4706" ph="{...}" />
-            <marker date="1519017450208" expanded="false" signature="4749:4805" ph="{...}" />
-            <marker date="1519017450208" expanded="false" signature="4838:5211" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/Killer Game Programming in Java_Andrew Davison/com/example/wormchase/WormChaseApplet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/wormchase/WormChaseApplet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#408#461#0" expanded="false" />
+            <element signature="e#1586#1587#0" expanded="true" />
+            <element signature="e#1638#1639#0" expanded="true" />
+            <element signature="e#1678#1679#0" expanded="true" />
+            <element signature="e#1740#1741#0" expanded="true" />
+            <element signature="e#2700#2701#0" expanded="true" />
+            <element signature="e#2731#2732#0" expanded="true" />
+            <element signature="e#2757#2758#0" expanded="true" />
+            <element signature="e#2787#2788#0" expanded="true" />
+            <element signature="e#2816#2817#0" expanded="true" />
+            <element signature="e#2845#2846#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/wormchase/WormChaseApplet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="37" lean-forward="false" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/wormchase/WormPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="209" column="20" lean-forward="true" selection-start-line="209" selection-start-column="20" selection-end-line="209" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#WormPanel#0;class#WormPanel#0" expanded="false" />
+            <element signature="method#readyForTermination#0;class#WormPanel#0" expanded="false" />
+            <element signature="method#addNotify#0;class#WormPanel#0" expanded="false" />
+            <element signature="method#testPress#0;class#WormPanel#0" expanded="false" />
+            <element signature="method#gameUpdate#0;class#WormPanel#0" expanded="false" />
+            <element signature="method#gameRender#0;class#WormPanel#0" expanded="false" />
+            <element signature="method#gameOverMessage#0;class#WormPanel#0" expanded="false" />
+            <element signature="method#paintScreen#0;class#WormPanel#0" expanded="false" />
+            <element signature="method#storeStats#0;class#WormPanel#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/wormchase/Obstacles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="41" lean-forward="false" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1178#1179#0" expanded="true" />
+            <element signature="e#1213#1214#0" expanded="true" />
           </folding>
         </state>
       </provider>
