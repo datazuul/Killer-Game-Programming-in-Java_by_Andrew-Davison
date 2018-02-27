@@ -1,18 +1,16 @@
+/*
 package com.example.wormchase;
 
 import com.sun.j3d.utils.timer.J3DTimer;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
+import java.awt.event.*;
 import java.text.DecimalFormat;
 
 public class WormPanel extends JPanel implements Runnable {
-    private static final int PWIDTH = 500;
-    private static final int PHEIGHT = 400;
+    //private static final int PWIDTH = 500;
+    //private static final int PHEIGHT = 400;
 
     private static long MAX_STATS_INTERVAL = 1000000000L;
     //private static long MAX_STATS_INTERVAL = 1000L;
@@ -20,6 +18,8 @@ public class WormPanel extends JPanel implements Runnable {
 
     private static int MAX_FRAME_SKIPS = 5;
     private static int NUM_FPS = 10;
+
+    private int pWidth, pHeight;
 
     private long statsInterval = 0L;
     private long prevStatsTime;
@@ -44,13 +44,14 @@ public class WormPanel extends JPanel implements Runnable {
     //private boolean running = false;
     private volatile boolean running = false;
     //private boolean isPaused = false;
-    private volatile boolean isPaused = false;
+    //private volatile boolean isPaused = false;
 
     private long period;
 
-    private WormChaseApplet wcTop;
+    private WormChase wcTop;
     private Worm fred;
     private Obstacles obs;
+    private int boxesUsed = 0;
 
     //private boolean gameOver = false;
     private volatile boolean gameOver = false;
@@ -59,22 +60,73 @@ public class WormPanel extends JPanel implements Runnable {
     private FontMetrics metrics;
     private boolean finishedOff = false;
 
+    private volatile boolean isOverQuitButton = false;
+    private Rectangle quitArea;
+
+    private volatile boolean isOverPauseButton = false;
+    private Rectangle pauseArea;
+    private volatile boolean isPaused = false;
+
     private Graphics dbg;
     private Image dbImage = null;
 
-    public WormPanel(WormChaseApplet wc, long period) {
+    public WormPanel(WormChase wc, long period */
+/**
+ * int w, int h
+ * private void startGame() {
+ * if (animator == null || !running) {
+ * animator = new Thread(this);
+ * animator.start();
+ * }
+ * }
+ * <p>
+ * public void resumeGame() {
+ * isPaused = false;
+ * }
+ * <p>
+ * public void pauseGame() {
+ * isPaused = true;
+ * }
+ * <p>
+ * public void stopGame() {
+ * running = false;
+ * //finishOff();
+ * }
+ * if (!isPaused && !gameOver) {
+ * if (fred.nearHead(x, y)) {
+ * gameOver = true;
+ * score = (40 - timeSpentInGame) + (40 - obs.getNumObstacles());
+ * } else {
+ * if (!fred.touchedAt(x, y)) {
+ * obs.add(x, y);
+ * }
+ * }
+ * }
+ **//*
+) {
         wcTop = wc;
         this.period = period;
+        //pWidth = w;
+        //pHeight = h;
+
+        Toolkit tk = Toolkit.getDefaultToolkit();
+        Dimension scrDim = tk.getScreenSize();
+        pWidth = scrDim.width;
+        pHeight = scrDim.height;
 
         setBackground(Color.white);
-        setPreferredSize(new Dimension(PWIDTH, PHEIGHT));
+        //setPreferredSize(new Dimension(PWIDTH, PHEIGHT));
+        //setPreferredSize(new Dimension(pWidth, pHeight));
+        setPreferredSize(scrDim);
 
         setFocusable(true);
         requestFocus();
         readyForTermination();
 
-        obs = new Obstacles(wcTop);
-        fred = new Worm(PWIDTH, PHEIGHT, obs);
+        //obs = new Obstacles(wcTop);
+        obs = new Obstacles(this);
+        fred = new Worm(pWidth, pHeight, obs);
+        //gameOver = false;
 
         addMouseListener(new MouseAdapter() {
             //@Override
@@ -84,8 +136,19 @@ public class WormPanel extends JPanel implements Runnable {
             }
         });
 
+        addMouseMotionListener(new MouseMotionAdapter() {
+            //@Override
+            public void mouseMoved(MouseEvent e) {
+                //super.mouseMoved(e);
+                testMove(e.getX(), e.getY());
+            }
+        });
+
         font = new Font("SansSerif", Font.BOLD, 24);
         metrics = this.getFontMetrics(font);
+
+        pauseArea = new Rectangle(pWidth - 100, pHeight - 45, 70, 15);
+        quitArea = new Rectangle(pWidth - 100, pHeight - 20, 70, 15);
 
         fpsStore = new double[NUM_FPS];
         upsStore = new double[NUM_FPS];
@@ -108,44 +171,90 @@ public class WormPanel extends JPanel implements Runnable {
                 }
             }
         });
+        Runtime.getRuntime().addShutdownHook(new Thread() {
+            public void run() {
+                running = false;
+                System.out.println("Shutdown hook executed");
+                finishOff();
+            }
+        });
     }
 
     public void addNotify() {
         super.addNotify();
-        startGame();
-    }
+        //startGame();
 
-    public void startGame() {
         if (animator == null || !running) {
             animator = new Thread(this);
             animator.start();
         }
     }
 
-    public void resumeGame() {
-        isPaused = false;
-    }
+    */
+/**
+ * private void startGame() {
+ * if (animator == null || !running) {
+ * animator = new Thread(this);
+ * animator.start();
+ * }
+ * }
+ * <p>
+ * public void resumeGame() {
+ * isPaused = false;
+ * }
+ * <p>
+ * public void pauseGame() {
+ * isPaused = true;
+ * }
+ * <p>
+ * public void stopGame() {
+ * running = false;
+ * //finishOff();
+ * }
+ **//*
 
-    public void pauseGame() {
-        isPaused = true;
-    }
-
-    public void stopGame() {
-        running = false;
-        finishOff();
-    }
 
     private void testPress(int x, int y) {
-        if (!isPaused && !gameOver) {
-            if (fred.nearHead(x, y)) {
-                gameOver = true;
-                score = (40 - timeSpentInGame) + (40 - obs.getNumObstacles());
-            } else {
-                if (!fred.touchedAt(x, y)) {
-                    obs.add(x, y);
+        if (isOverPauseButton) {
+            isPaused = !isPaused;
+        } else if (isOverQuitButton) {
+            running = false;
+        } else {
+            if (!isPaused && !gameOver) {
+                if (fred.nearHead(x, y)) {
+                    gameOver = true;
+                    //score = (40 - timeSpentInGame) + (40 - obs.getNumObstacles());
+                    score = (40 - timeSpentInGame) + (40 - boxesUsed);
+                } else {
+                    if (!fred.touchedAt(x, y)) {
+                        obs.add(x, y);
+                    }
                 }
             }
         }
+        */
+/**if (!isPaused && !gameOver) {
+ if (fred.nearHead(x, y)) {
+ gameOver = true;
+ score = (40 - timeSpentInGame) + (40 - obs.getNumObstacles());
+ } else {
+ if (!fred.touchedAt(x, y)) {
+ obs.add(x, y);
+ }
+ }
+ }**//*
+
+    }
+
+    private void testMove(int x, int y) {
+        if (running) {
+            isOverPauseButton = pauseArea.contains(x, y) ? true : false;
+            isOverQuitButton = quitArea.contains(x, y) ? true : false;
+        }
+    }
+
+    public void setBoxNumber(int no) {
+        boxesUsed = no;
     }
 
     public void run() {
@@ -218,7 +327,7 @@ public class WormPanel extends JPanel implements Runnable {
 
     private void gameRender() {
         if (dbImage == null) {
-            dbImage = createImage(PWIDTH, PHEIGHT);
+            dbImage = createImage(pWidth, pHeight);
             if (dbImage == null) {
                 System.out.println("dbImage is null");
                 return;
@@ -227,13 +336,17 @@ public class WormPanel extends JPanel implements Runnable {
             }
 
             dbg.setColor(Color.white);
-            dbg.fillRect(0, 0, PWIDTH, PHEIGHT);
+            dbg.fillRect(0, 0, pWidth, pHeight);
 
             dbg.setColor(Color.blue);
             dbg.setFont(font);
 
-            dbg.drawString("Averae FPS/UPS : " + df.format(averageFPS) + ", " +
+            dbg.drawString("Average FPS/UPS : " + df.format(averageFPS) + ", " +
                     df.format(averageUPS), 20, 25);
+            dbg.drawString("Time Spent : " + timeSpentInGame + " secs", 10, pHeight - 15);
+            dbg.drawString("Boxes Used : " + boxesUsed, 260, pHeight - 15);
+
+            drawButtons(dbg);
             dbg.setColor(Color.black);
 
             obs.draw(dbg);
@@ -245,10 +358,40 @@ public class WormPanel extends JPanel implements Runnable {
         }
     }
 
+    private void drawButtons(Graphics g) {
+        g.setColor(Color.black);
+
+        if (isOverPauseButton) {
+            g.setColor(Color.green);
+        }
+
+        g.drawOval(pauseArea.x, pauseArea.y, pauseArea.width, pauseArea.height);
+        if (isPaused) {
+            g.drawString("Paused", pauseArea.x, pauseArea.y + 10);
+        } else {
+            g.drawString("Pause", pauseArea.x + 5, pauseArea.y + 10);
+        }
+
+        if (isOverPauseButton) {
+            g.setColor(Color.black);
+        }
+
+        if (isOverQuitButton) {
+            g.setColor(Color.green);
+        }
+
+        g.drawOval(quitArea.x, quitArea.y, quitArea.width, quitArea.height);
+        g.drawString("Quit", quitArea.x + 15, quitArea.y + 10);
+
+        if (isOverQuitButton) {
+            g.setColor(Color.black);
+        }
+    }
+
     private void gameOverMessage(Graphics g) {
         String msg = "Game over. Your Score : " + score;
-        int x = (PWIDTH - metrics.stringWidth(msg)) / 2;
-        int y = (PHEIGHT - metrics.getHeight()) / 2;
+        int x = (pWidth - metrics.stringWidth(msg)) / 2;
+        int y = (pHeight - metrics.getHeight()) / 2;
 
         g.setColor(Color.red);
         g.setFont(font);
@@ -278,7 +421,7 @@ public class WormPanel extends JPanel implements Runnable {
             //long timeNow = System.currentTimeMillis();
             timeSpentInGame = (int) ((timeNow - gameStartTime) / 1000000000L);
             //timeSpentInGame = (int) ((timeNow - gameStartTime) / 1000L);
-            wcTop.setTimeSpent(timeSpentInGame);
+            //wcTop.setTimeSpent(timeSpentInGame);
 
             long realElapsedTime = timeNow - prevStatsTime;
             totalElapsedTime += realElapsedTime;
@@ -333,6 +476,7 @@ public class WormPanel extends JPanel implements Runnable {
         if (!finishedOff) {
             finishedOff = true;
             printStats();
+            System.exit(0);
         }
     }
 
@@ -341,6 +485,8 @@ public class WormPanel extends JPanel implements Runnable {
         System.out.println("Average FPS : " + df.format(averageFPS));
         System.out.println("Average UPS : " + df.format(averageUPS));
         System.out.println("Time Spent : " + timeSpentInGame + " secs");
-        System.out.println("Boxes used : " + obs.getNumObstacles());
+        //System.out.println("Boxes used : " + obs.getNumObstacles());
+        System.out.println("Boxes used : " + boxesUsed);
     }
 }
+*/

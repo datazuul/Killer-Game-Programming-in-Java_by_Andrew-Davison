@@ -6,17 +6,21 @@ import java.util.ArrayList;
 public class Obstacles {
     private static final int BOX_LENGTH = 12;
 
-    private ArrayList<Rectangle> boxes;
-    private WormChaseApplet wcTop;
+    private ArrayList boxes;
+    private WormChase wormChase;
+    //private WormPanel wormPanel;
 
-    public Obstacles(WormChaseApplet wc) {
-        boxes = new ArrayList<Rectangle>();
-        wcTop = wc;
+    public Obstacles(WormChase wc) {
+        //public Obstacles(WormPanel wp) {
+        boxes = new ArrayList();
+        wormChase = wc;
+        //wormPanel = wp;
     }
 
     synchronized public void add(int x, int y) {
         boxes.add(new Rectangle(x, y, BOX_LENGTH, BOX_LENGTH));
-        wcTop.setBoxNumber(boxes.size());
+        wormChase.setBoxNumber(boxes.size());
+        //wormPanel.setBoxNumber(boxes.size());
     }
 
     synchronized public boolean hits(Point p, int size) {
