@@ -1,0 +1,25 @@
+
+// imsInfo.txt images
+
+o atomic.gif
+o balls.jpg
+o bee.gif
+o cheese.gif
+o eyeChart.gif
+o house.gif
+o pumpkin.png
+o scooter.gif
+o ufo.gif
+o owl.png
+
+n numbers*.gif  6
+n figure*.gif 9
+
+g fighter  left.gif right.gif still.gif up.gif
+
+s cars.gif 8
+s cats.gif 6
+s kaboom.gif 6
+
+o basn6a08.png
+o basn6a16.png

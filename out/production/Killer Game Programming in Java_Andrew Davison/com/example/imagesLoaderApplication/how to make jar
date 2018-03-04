@@ -1,0 +1,2 @@
+jar cvmf mainClass.txt ImagesTests.jar *.class Images
+jar <options> <manifest info file> <name of JAR file><list of input files/directories>
