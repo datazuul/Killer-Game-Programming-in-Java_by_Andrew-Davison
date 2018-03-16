@@ -1,0 +1,7 @@
+
+// midis
+
+baa bsheep.mid
+farmer farmerinthedell.mid
+mary maryhadalittlelamb.mid
+mcdonald mcdonald.mid

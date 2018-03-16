@@ -10,7 +10,7 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar:///usr/lib/jvm/java-8-oracle/jre/lib/ext/j3dcore.jar!/" />
+          <root url="jar://$MODULE_DIR$/../j3dcore.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -19,7 +19,7 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar:///usr/lib/jvm/java-8-oracle/jre/lib/ext/j3dutils.jar!/" />
+          <root url="jar://$MODULE_DIR$/../j3dutils.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -28,7 +28,7 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar:///usr/lib/jvm/java-8-oracle/jre/lib/ext/vecmath.jar!/" />
+          <root url="jar://$MODULE_DIR$/../vecmath.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

@@ -1,0 +1,7 @@
+
+// sounds
+
+cat cat.wav
+chicken chicken.wav
+dog dog.wav
+sheep sheep.wav

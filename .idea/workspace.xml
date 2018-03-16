@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="336bb76c-3f91-4b72-9d94-9b65a2ecb8fb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/mcdonalds/Bells.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/mcdonalds/McDonald.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/mcdonalds/PlaySound.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/soundplayer/BufferedPlayer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/soundplayer/PlayClip.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/soundplayer/PlayClipBF.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/soundplayer/PlayMidi.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/soundplayer/SoundPlayer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/test/Test7.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/loaderstests/ClipInfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/loaderstests/ClipsLoader.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/loaderstests/ImagesLoader.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/loaderstests/LoadersTests.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/loaderstests/MidiInfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/loaderstests/MidisLoader.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/loaderstests/SoundsPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/loaderstests/SoundsWatcher.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Killer Game Programming in Java_Andrew Davison.iml" afterPath="$PROJECT_DIR$/Killer Game Programming in Java_Andrew Davison.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +22,66 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="LoadersTests.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/loaderstests/LoadersTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#7564#7565#0" expanded="true" />
+                <element signature="e#7616#7617#0" expanded="true" />
+                <element signature="e#7662#7663#0" expanded="true" />
+                <element signature="e#7696#7697#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SoundsPanel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/loaderstests/SoundsPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1260">
+              <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClipsLoader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/loaderstests/ClipsLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2070">
+              <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
+                <element signature="e#516#517#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClipInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/loaderstests/ClipInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2376">
+              <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4138#4139#0" expanded="true" />
+                <element signature="e#4177#4178#0" expanded="true" />
+                <element signature="e#4208#4209#0" expanded="true" />
+                <element signature="e#4235#4236#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -85,6 +144,14 @@
         <option value="$PROJECT_DIR$/src/com/example/soundplayer/PlayClipBF.java" />
         <option value="$PROJECT_DIR$/src/com/example/soundplayer/BufferedPlayer.java" />
         <option value="$PROJECT_DIR$/src/com/example/soundplayer/PlayMidi.java" />
+        <option value="$PROJECT_DIR$/src/com/example/loaderstests/SoundsWatcher.java" />
+        <option value="$PROJECT_DIR$/src/com/example/loaderstests/ClipInfo.java" />
+        <option value="$PROJECT_DIR$/src/com/example/loaderstests/ClipsLoader.java" />
+        <option value="$PROJECT_DIR$/src/com/example/loaderstests/MidiInfo.java" />
+        <option value="$PROJECT_DIR$/src/com/example/loaderstests/MidisLoader.java" />
+        <option value="$PROJECT_DIR$/src/com/example/loaderstests/ImagesLoader.java" />
+        <option value="$PROJECT_DIR$/src/com/example/loaderstests/SoundsPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/example/loaderstests/LoadersTests.java" />
       </list>
     </option>
   </component>
@@ -118,6 +185,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -142,29 +211,23 @@
               <item name="Killer Game Programming in Java_Andrew Davison" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="soundplayer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Killer Game Programming in Java_Andrew Davison" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="loaderstests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext/vecmath.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vecmath.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
@@ -185,7 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BufferedPlayer">
+  <component name="RunManager" selected="Application.LoadersTests">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -193,14 +256,14 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="Bells" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="BufferedPlayer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.example.mcdonalds.*" />
+          <option name="PATTERN" value="com.example.soundplayer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.example.mcdonalds.Bells" />
+      <option name="MAIN_CLASS_NAME" value="com.example.soundplayer.BufferedPlayer" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -212,14 +275,14 @@
       <module name="Killer Game Programming in Java_Andrew Davison" />
       <envs />
     </configuration>
-    <configuration name="BufferedPlayer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="LoadersTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.example.soundplayer.*" />
+          <option name="PATTERN" value="com.example.loaderstests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.example.soundplayer.BufferedPlayer" />
+      <option name="MAIN_CLASS_NAME" value="com.example.loaderstests.LoadersTests" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -363,19 +426,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Bells" />
-      <item index="1" class="java.lang.String" itemvalue="Application.SoundPlayer" />
-      <item index="2" class="java.lang.String" itemvalue="Application.PlayClip" />
-      <item index="3" class="java.lang.String" itemvalue="Application.PlayClipBF" />
-      <item index="4" class="java.lang.String" itemvalue="Application.BufferedPlayer" />
+      <item index="0" class="java.lang.String" itemvalue="Application.SoundPlayer" />
+      <item index="1" class="java.lang.String" itemvalue="Application.PlayClip" />
+      <item index="2" class="java.lang.String" itemvalue="Application.PlayClipBF" />
+      <item index="3" class="java.lang.String" itemvalue="Application.BufferedPlayer" />
+      <item index="4" class="java.lang.String" itemvalue="Application.LoadersTests" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.BufferedPlayer" />
-        <item index="1" class="java.lang.String" itemvalue="Application.PlayClipBF" />
-        <item index="2" class="java.lang.String" itemvalue="Application.PlayClip" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SoundPlayer" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Bells" />
+        <item index="0" class="java.lang.String" itemvalue="Application.LoadersTests" />
+        <item index="1" class="java.lang.String" itemvalue="Application.BufferedPlayer" />
+        <item index="2" class="java.lang.String" itemvalue="Application.PlayClipBF" />
+        <item index="3" class="java.lang.String" itemvalue="Application.PlayClip" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SoundPlayer" />
       </list>
     </recent_temporary>
   </component>
@@ -434,15 +497,21 @@
       <workItem from="1520223932449" duration="488000" />
       <workItem from="1520312281917" duration="2337000" />
       <workItem from="1520323005408" duration="10477000" />
-      <workItem from="1520401105960" duration="581000" />
+      <workItem from="1520401105960" duration="3082000" />
+      <workItem from="1520846861347" duration="16045000" />
+      <workItem from="1520920702601" duration="7125000" />
+      <workItem from="1520932613298" duration="13419000" />
+      <workItem from="1521206899905" duration="2564000" />
+      <workItem from="1521236976731" duration="566000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="234868000" />
+    <option name="totallyTimeSpent" value="277088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1303" height="780" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -456,7 +525,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24980783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24980783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -495,90 +564,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/example/wormchase/Worm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3114">
-          <caret line="173" column="79" lean-forward="true" selection-start-line="173" selection-start-column="79" selection-end-line="173" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/wormchase/Obstacles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/wormchase/WormPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5526">
-          <caret line="342" column="8" lean-forward="false" selection-start-line="342" selection-start-column="8" selection-end-line="342" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/wormchase/WormChase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/wormchase/WormPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3978">
-          <caret line="221" column="5" lean-forward="true" selection-start-line="221" selection-start-column="5" selection-end-line="221" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/wormchase/WormChase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/wormchase/GamePanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1519060075976" expanded="false" signature="757:1179" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="1209:1264" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="1295:1427" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="1533:1583" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="1683:3264" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="3296:3352" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="3384:3846" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="3977:4104" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="4145:4707" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="4750:4806" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="4839:5212" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/wormchase/GamePanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1368">
-          <caret line="149" column="3" lean-forward="false" selection-start-line="149" selection-start-column="3" selection-end-line="149" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1519060075976" expanded="false" signature="757:1179" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="1209:1264" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="1295:1427" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="1533:1583" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="1683:3264" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="3296:3352" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="3384:3846" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="3977:4104" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="4145:4707" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="4750:4806" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="4839:5212" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/test/Test5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -798,13 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/wormchase/WormChase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="444" column="76" lean-forward="false" selection-start-line="444" selection-start-column="76" selection-end-line="444" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/test/ShowImage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2214">
@@ -880,11 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="11" column="67" lean-forward="true" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3768#3769#0" expanded="false" />
-            <element signature="e#3801#3802#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -892,9 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="85" column="25" lean-forward="true" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -903,9 +873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="91" column="15" lean-forward="true" selection-start-line="91" selection-start-column="15" selection-end-line="91" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -920,8 +887,96 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="508">
           <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/loaderstests/MidisLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1478">
+          <caret line="174" column="0" lean-forward="false" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/loaderstests/MidiInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/loaderstests/SoundsWatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/loaderstests/ImagesLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="332" column="5" lean-forward="true" selection-start-line="332" selection-start-column="5" selection-end-line="332" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#684#685#0" expanded="false" />
+            <element signature="e#712#713#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/wormchase/WormChase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/loaderstests/LoadersTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#7564#7565#0" expanded="true" />
+            <element signature="e#7616#7617#0" expanded="true" />
+            <element signature="e#7662#7663#0" expanded="true" />
+            <element signature="e#7696#7697#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/loaderstests/SoundsPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/loaderstests/ClipsLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2070">
+          <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/loaderstests/ClipInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2376">
+          <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4138#4139#0" expanded="true" />
+            <element signature="e#4177#4178#0" expanded="true" />
+            <element signature="e#4208#4209#0" expanded="true" />
+            <element signature="e#4235#4236#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -979,6 +1034,18 @@
       <state key="ModuleStructureConfigurable.UI">
         <settings>
           <last-edited>Killer Game Programming in Java_Andrew Davison</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

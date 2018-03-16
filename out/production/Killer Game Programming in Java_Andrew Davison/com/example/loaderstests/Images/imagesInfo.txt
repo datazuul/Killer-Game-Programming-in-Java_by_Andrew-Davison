@@ -1,0 +1,7 @@
+
+// images
+
+o cat.gif
+o chicken.gif
+o dog.gif
+o sheep.gif
