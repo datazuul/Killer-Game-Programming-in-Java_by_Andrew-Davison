@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="336bb76c-3f91-4b72-9d94-9b65a2ecb8fb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/loaderstests/ClipInfo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/loaderstests/ClipsLoader.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/loaderstests/ImagesLoader.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/loaderstests/LoadersTests.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/loaderstests/MidiInfo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/loaderstests/MidisLoader.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/loaderstests/SoundsPanel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/loaderstests/SoundsWatcher.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/soundplayer/EchoSamplesPlayer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/soundplayer/FadeMidi.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/soundplayer/PanChanger.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/soundplayer/PanMidi.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/soundplayer/PlaceClip.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/soundplayer/VolChanger.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Killer Game Programming in Java_Andrew Davison.iml" afterPath="$PROJECT_DIR$/Killer Game Programming in Java_Andrew Davison.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,27 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LoadersTests.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/example/loaderstests/LoadersTests.java">
+      <file leaf-file-name="EchoSamplesPlayer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/soundplayer/EchoSamplesPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#7564#7565#0" expanded="true" />
-                <element signature="e#7616#7617#0" expanded="true" />
-                <element signature="e#7662#7663#0" expanded="true" />
-                <element signature="e#7696#7697#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SoundsPanel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/loaderstests/SoundsPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
-              <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+            <state relative-caret-position="2790">
+              <caret line="156" column="21" lean-forward="false" selection-start-line="156" selection-start-column="21" selection-end-line="156" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,32 +32,62 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClipsLoader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/loaderstests/ClipsLoader.java">
+      <file leaf-file-name="PlaceClip.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/soundplayer/PlaceClip.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2070">
-              <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+            <state relative-caret-position="3726">
+              <caret line="209" column="23" lean-forward="false" selection-start-line="209" selection-start-column="23" selection-end-line="209" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#476#477#0" expanded="true" />
-                <element signature="e#516#517#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClipInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/loaderstests/ClipInfo.java">
+      <file leaf-file-name="FadeMidi.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/soundplayer/FadeMidi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2376">
-              <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+            <state relative-caret-position="194">
+              <caret line="56" column="25" lean-forward="false" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4138#4139#0" expanded="true" />
-                <element signature="e#4177#4178#0" expanded="true" />
-                <element signature="e#4208#4209#0" expanded="true" />
-                <element signature="e#4235#4236#0" expanded="true" />
+                <element signature="e#4479#4480#0" expanded="true" />
+                <element signature="e#4554#4555#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PanChanger.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/soundplayer/PanChanger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="810">
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PanMidi.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/soundplayer/PanMidi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="508">
+              <caret line="155" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3801#3802#0" expanded="true" />
+                <element signature="e#3876#3877#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VolChanger.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/soundplayer/VolChanger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="792">
+              <caret line="44" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -95,6 +106,7 @@
     <findStrings>
       <find>Runtime</find>
       <find>isLo</find>
+      <find>obt</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -152,6 +164,12 @@
         <option value="$PROJECT_DIR$/src/com/example/loaderstests/ImagesLoader.java" />
         <option value="$PROJECT_DIR$/src/com/example/loaderstests/SoundsPanel.java" />
         <option value="$PROJECT_DIR$/src/com/example/loaderstests/LoadersTests.java" />
+        <option value="$PROJECT_DIR$/src/com/example/soundplayer/EchoSamplesPlayer.java" />
+        <option value="$PROJECT_DIR$/src/com/example/soundplayer/PlaceClip.java" />
+        <option value="$PROJECT_DIR$/src/com/example/soundplayer/FadeMidi.java" />
+        <option value="$PROJECT_DIR$/src/com/example/soundplayer/VolChanger.java" />
+        <option value="$PROJECT_DIR$/src/com/example/soundplayer/PanChanger.java" />
+        <option value="$PROJECT_DIR$/src/com/example/soundplayer/PanMidi.java" />
       </list>
     </option>
   </component>
@@ -185,9 +203,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -211,13 +226,16 @@
               <item name="Killer Game Programming in Java_Andrew Davison" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="loaderstests" type="462c0819:PsiDirectoryNode" />
+              <item name="soundplayer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -502,12 +520,15 @@
       <workItem from="1520920702601" duration="7125000" />
       <workItem from="1520932613298" duration="13419000" />
       <workItem from="1521206899905" duration="2564000" />
-      <workItem from="1521236976731" duration="566000" />
+      <workItem from="1521236976731" duration="15776000" />
+      <workItem from="1521269195727" duration="6022000" />
+      <workItem from="1521290670084" duration="3091000" />
+      <workItem from="1521316060165" duration="595000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="277088000" />
+    <option name="totallyTimeSpent" value="302006000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1303" height="780" extended-state="6" />
@@ -525,7 +546,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24980783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24980783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -564,84 +585,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/example/test/Test5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/wormchase/GamePanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1368">
-          <caret line="149" column="3" lean-forward="false" selection-start-line="149" selection-start-column="3" selection-end-line="149" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1519060075976" expanded="false" signature="757:1179" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="1209:1264" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="1295:1427" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="1533:1583" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="1683:3264" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="3296:3352" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="3384:3846" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="3977:4104" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="4145:4707" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="4750:4806" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="4839:5212" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/test/Test5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/wormchase/GamePanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1519060075976" expanded="false" signature="757:1179" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="1209:1264" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="1295:1427" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="1533:1583" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="1683:3264" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="3296:3352" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="3384:3846" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="3977:4104" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="4145:4707" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="4750:4806" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="4839:5212" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/wormchase/GamePanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1519060075976" expanded="false" signature="757:1179" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="1209:1264" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="1295:1427" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="1533:1583" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="1683:3264" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="3296:3352" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="3384:3846" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="3977:4104" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="4145:4707" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="4750:4806" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="4839:5212" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/wormchase/Test1.java" />
     <entry file="file://$PROJECT_DIR$/src/com/example/test/Test3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -908,7 +851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -916,11 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="332" column="5" lean-forward="true" selection-start-line="332" selection-start-column="5" selection-end-line="332" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#684#685#0" expanded="false" />
-            <element signature="e#712#713#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -933,15 +870,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/loaderstests/LoadersTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#7564#7565#0" expanded="true" />
-            <element signature="e#7616#7617#0" expanded="true" />
-            <element signature="e#7662#7663#0" expanded="true" />
-            <element signature="e#7696#7697#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="216">
+          <caret line="133" column="50" lean-forward="true" selection-start-line="133" selection-start-column="50" selection-end-line="133" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -949,9 +879,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1260">
           <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -959,11 +886,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2070">
           <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -971,12 +893,65 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2376">
           <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/soundplayer/EchoSamplesPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2790">
+          <caret line="156" column="21" lean-forward="false" selection-start-line="156" selection-start-column="21" selection-end-line="156" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4138#4139#0" expanded="true" />
-            <element signature="e#4177#4178#0" expanded="true" />
-            <element signature="e#4208#4209#0" expanded="true" />
-            <element signature="e#4235#4236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/soundplayer/PlaceClip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3726">
+          <caret line="209" column="23" lean-forward="false" selection-start-line="209" selection-start-column="23" selection-end-line="209" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/soundplayer/PanChanger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/soundplayer/VolChanger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/soundplayer/PanMidi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="155" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3801#3802#0" expanded="true" />
+            <element signature="e#3876#3877#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/soundplayer/FadeMidi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="56" column="25" lean-forward="false" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4479#4480#0" expanded="true" />
+            <element signature="e#4554#4555#0" expanded="true" />
           </folding>
         </state>
       </provider>
