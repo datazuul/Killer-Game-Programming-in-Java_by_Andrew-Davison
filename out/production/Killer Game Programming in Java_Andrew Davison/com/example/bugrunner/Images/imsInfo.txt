@@ -1,0 +1,16 @@
+
+// imsInfo.txt images
+
+// balls images
+o rock1.gif
+o orangeRock.gif
+o computer.gif
+o ball.gif
+
+// background image
+o bladerunner.jpg
+
+// bat images
+s leftBugs2.gif 4
+s rightBugs2.gif 4
+

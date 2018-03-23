@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="336bb76c-3f91-4b72-9d94-9b65a2ecb8fb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/synthesizesound/NotesSynth.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/synthesizesound/SeqSynth.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/bugrunner/BallSprite.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/bugrunner/BatSprite.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/bugrunner/BugPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/bugrunner/BugRunner.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/bugrunner/ClipInfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/bugrunner/ClipsLoader.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/bugrunner/ImagesLoader.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/bugrunner/ImagesPlayer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/bugrunner/ImagesPlayerWatcher.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/bugrunner/MidiInfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/bugrunner/MidisLoader.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/bugrunner/SoundsWatcher.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/bugrunner/Sprite.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/test/TurnStile.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,37 +27,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NotesSynth.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/synthesizesound/NotesSynth.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="37" column="47" lean-forward="false" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SeqSynth.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/example/synthesizesound/SeqSynth.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1578">
-              <caret line="63" column="37" lean-forward="true" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
-              <folding>
-                <element signature="e#3585#3586#0" expanded="true" />
-                <element signature="e#3616#3617#0" expanded="true" />
-                <element signature="e#3650#3651#0" expanded="true" />
-                <element signature="e#3678#3679#0" expanded="true" />
-                <element signature="e#4033#4034#0" expanded="true" />
-                <element signature="e#4066#4067#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -73,20 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/example/test/Test1.java" />
-        <option value="$PROJECT_DIR$/src/com/example/test/Test2.java" />
-        <option value="$PROJECT_DIR$/src/com/example/test/Test3.java" />
-        <option value="$PROJECT_DIR$/src/com/example/test/Test4.java" />
-        <option value="$PROJECT_DIR$/src/com/example/test/Test5.java" />
-        <option value="$PROJECT_DIR$/src/com/example/test/StopWatch.java" />
-        <option value="$PROJECT_DIR$/src/com/example/test/TimerRes.java" />
-        <option value="$PROJECT_DIR$/src/com/example/test/Test6.java" />
-        <option value="$PROJECT_DIR$/src/com/example/test/SleepAcc.java" />
-        <option value="$PROJECT_DIR$/src/com/example/test/PaintPanel.java" />
-        <option value="$PROJECT_DIR$/src/com/example/test/MyTimerTask.java" />
-        <option value="$PROJECT_DIR$/src/com/example/test/UtilTimerClass.java" />
-        <option value="$PROJECT_DIR$/src/com/example/test/SwingTimerTest.java" />
-        <option value="$PROJECT_DIR$/src/com/example/wormchase/GamePanel.java" />
         <option value="$PROJECT_DIR$/src/com/example/wormchase/Worm.java" />
         <option value="$PROJECT_DIR$/src/com/example/wormchase/WormChaseApplet.html" />
         <option value="$PROJECT_DIR$/src/com/example/wormchase/WormChaseApplet.java" />
@@ -124,6 +92,20 @@
         <option value="$PROJECT_DIR$/src/com/example/soundplayer/PanMidi.java" />
         <option value="$PROJECT_DIR$/src/com/example/synthesizesound/NotesSynth.java" />
         <option value="$PROJECT_DIR$/src/com/example/synthesizesound/SeqSynth.java" />
+        <option value="$PROJECT_DIR$/src/com/example/bugrunner/SoundsWatcher.java" />
+        <option value="$PROJECT_DIR$/src/com/example/bugrunner/ClipInfo.java" />
+        <option value="$PROJECT_DIR$/src/com/example/bugrunner/ClipsLoader.java" />
+        <option value="$PROJECT_DIR$/src/com/example/bugrunner/ImagesLoader.java" />
+        <option value="$PROJECT_DIR$/src/com/example/bugrunner/ImagesPlayerWatcher.java" />
+        <option value="$PROJECT_DIR$/src/com/example/bugrunner/ImagesPlayer.java" />
+        <option value="$PROJECT_DIR$/src/com/example/bugrunner/Sprite.java" />
+        <option value="$PROJECT_DIR$/src/com/example/bugrunner/BatSprite.java" />
+        <option value="$PROJECT_DIR$/src/com/example/bugrunner/BallSprite.java" />
+        <option value="$PROJECT_DIR$/src/com/example/bugrunner/BugPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/example/bugrunner/MidiInfo.java" />
+        <option value="$PROJECT_DIR$/src/com/example/bugrunner/MidisLoader.java" />
+        <option value="$PROJECT_DIR$/src/com/example/bugrunner/BugRunner.java" />
+        <option value="$PROJECT_DIR$/src/com/example/test/TurnStile.java" />
       </list>
     </option>
   </component>
@@ -157,9 +139,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -178,18 +159,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Killer Game Programming in Java_Andrew Davison" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Killer Game Programming in Java_Andrew Davison" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="synthesizesound" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -220,7 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SeqSynth">
+  <component name="RunManager" selected="Application.BugRunner">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -236,6 +211,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.example.soundplayer.BufferedPlayer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Killer Game Programming in Java_Andrew Davison" />
+      <envs />
+    </configuration>
+    <configuration name="BugRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.example.bugrunner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.example.bugrunner.BugRunner" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -274,25 +268,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.example.synthesizesound.NotesSynth" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Killer Game Programming in Java_Andrew Davison" />
-      <envs />
-    </configuration>
-    <configuration name="PlayClipBF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.example.soundplayer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.example.soundplayer.PlayClipBF" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -398,19 +373,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.PlayClipBF" />
-      <item index="1" class="java.lang.String" itemvalue="Application.BufferedPlayer" />
-      <item index="2" class="java.lang.String" itemvalue="Application.LoadersTests" />
-      <item index="3" class="java.lang.String" itemvalue="Application.NotesSynth" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SeqSynth" />
+      <item index="0" class="java.lang.String" itemvalue="Application.BufferedPlayer" />
+      <item index="1" class="java.lang.String" itemvalue="Application.LoadersTests" />
+      <item index="2" class="java.lang.String" itemvalue="Application.NotesSynth" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SeqSynth" />
+      <item index="4" class="java.lang.String" itemvalue="Application.BugRunner" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SeqSynth" />
-        <item index="1" class="java.lang.String" itemvalue="Application.NotesSynth" />
-        <item index="2" class="java.lang.String" itemvalue="Application.LoadersTests" />
-        <item index="3" class="java.lang.String" itemvalue="Application.BufferedPlayer" />
-        <item index="4" class="java.lang.String" itemvalue="Application.PlayClipBF" />
+        <item index="0" class="java.lang.String" itemvalue="Application.BugRunner" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SeqSynth" />
+        <item index="2" class="java.lang.String" itemvalue="Application.NotesSynth" />
+        <item index="3" class="java.lang.String" itemvalue="Application.LoadersTests" />
+        <item index="4" class="java.lang.String" itemvalue="Application.BufferedPlayer" />
       </list>
     </recent_temporary>
   </component>
@@ -479,19 +454,25 @@
       <workItem from="1521290670084" duration="3091000" />
       <workItem from="1521316060165" duration="1156000" />
       <workItem from="1521340216345" duration="10849000" />
-      <workItem from="1521357127251" duration="1835000" />
+      <workItem from="1521357127251" duration="10775000" />
+      <workItem from="1521377123311" duration="6880000" />
+      <workItem from="1521432363402" duration="5863000" />
+      <workItem from="1521629653772" duration="9308000" />
+      <workItem from="1521668817777" duration="30000" />
+      <workItem from="1521708306680" duration="8857000" />
+      <workItem from="1521721513632" duration="7960000" />
+      <workItem from="1521758395347" duration="3061000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="315251000" />
+    <option name="totallyTimeSpent" value="366150000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1303" height="780" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -514,6 +495,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8018018" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -540,112 +522,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/example/test/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/test/Test4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/test/StopWatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/test/SleepAcc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/test/Test6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/test/TimerRes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/test/Test5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/test/UtilTimerClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/test/PaintPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/test/MyTimerTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/test/SwingTimerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="129" column="0" lean-forward="true" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/wormchase/GamePanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="194" column="4" lean-forward="false" selection-start-line="194" selection-start-column="4" selection-end-line="194" selection-end-column="4" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1519060075976" expanded="false" signature="757:1179" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="1209:1264" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="1295:1427" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="1533:1583" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="1683:3264" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="3296:3352" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="3384:3846" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="3977:4104" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="4145:4707" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="4750:4806" ph="{...}" />
-            <marker date="1519060075976" expanded="false" signature="4839:5212" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/Killer Game Programming in Java_Andrew Davison/com/example/wormchase/WormChaseApplet.class" />
-    <entry file="file://$PROJECT_DIR$/src/com/example/wormchase/WormChaseApplet.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="37" lean-forward="false" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/wormchase/WormPanel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5250">
@@ -841,11 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="56" column="25" lean-forward="false" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#4479#4480#0" expanded="false" />
-            <element signature="e#4554#4555#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -874,11 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="155" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#3801#3802#0" expanded="false" />
-            <element signature="e#3876#3877#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -889,27 +755,150 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/synthesizesound/NotesSynth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="37" column="47" lean-forward="false" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/synthesizesound/SeqSynth.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1578">
           <caret line="63" column="37" lean-forward="true" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/synthesizesound/NotesSynth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="37" column="47" lean-forward="false" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/bugrunner/SoundsWatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/bugrunner/ClipInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="136" column="0" lean-forward="true" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/bugrunner/ClipsLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="119" column="0" lean-forward="true" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/bugrunner/ImagesLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="375" column="5" lean-forward="true" selection-start-line="375" selection-start-column="5" selection-end-line="375" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/bugrunner/ImagesPlayerWatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="41" lean-forward="false" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/bugrunner/ImagesPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="106" column="0" lean-forward="true" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/bugrunner/Sprite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="155" column="0" lean-forward="true" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/bugrunner/BatSprite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/bugrunner/BallSprite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="67" column="17" lean-forward="true" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/bugrunner/BugPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="267" column="0" lean-forward="true" selection-start-line="267" selection-start-column="0" selection-end-line="267" selection-end-column="0" />
           <folding>
-            <element signature="e#3585#3586#0" expanded="true" />
-            <element signature="e#3616#3617#0" expanded="true" />
-            <element signature="e#3650#3651#0" expanded="true" />
-            <element signature="e#3678#3679#0" expanded="true" />
-            <element signature="e#4033#4034#0" expanded="true" />
-            <element signature="e#4066#4067#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1566#1749#0" expanded="false" />
+            <element signature="e#1748#1749#0" expanded="false" />
+            <element signature="e#2146#2343#0" expanded="false" />
+            <element signature="e#2342#2343#0" expanded="false" />
+            <element signature="e#3609#3610#0" expanded="false" />
+            <element signature="e#3641#3642#0" expanded="false" />
+            <element signature="e#3672#3673#0" expanded="false" />
+            <element signature="e#3703#3704#0" expanded="false" />
+            <element signature="e#3733#3734#0" expanded="false" />
+            <element signature="e#3764#3765#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/bugrunner/MidiInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2480#2481#0" expanded="false" />
+            <element signature="e#2507#2508#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/bugrunner/MidisLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="169" column="0" lean-forward="true" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#3257#3258#0" expanded="false" />
+            <element signature="e#3285#3286#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/bugrunner/BugRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="48" column="48" lean-forward="false" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1085#1086#0" expanded="true" />
+            <element signature="e#1151#1152#0" expanded="true" />
+            <element signature="e#1182#1183#0" expanded="true" />
+            <element signature="e#1246#1247#0" expanded="true" />
+            <element signature="e#1277#1278#0" expanded="true" />
+            <element signature="e#1343#1344#0" expanded="true" />
+            <element signature="e#1373#1374#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/test/TurnStile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#1087#0" expanded="true" />
           </folding>
         </state>
       </provider>

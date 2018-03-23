@@ -1,0 +1,7 @@
+
+// sounds
+
+hitBat jump.au
+hitLeft clack.au
+hitRight outch.au
+gameOver clap.wav
