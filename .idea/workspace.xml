@@ -2,20 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="336bb76c-3f91-4b72-9d94-9b65a2ecb8fb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/bugrunner/BallSprite.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/bugrunner/BatSprite.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/bugrunner/BugPanel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/bugrunner/BugRunner.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/bugrunner/ClipInfo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/bugrunner/ClipsLoader.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/bugrunner/ImagesLoader.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/bugrunner/ImagesPlayer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/bugrunner/ImagesPlayerWatcher.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/bugrunner/MidiInfo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/bugrunner/MidisLoader.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/bugrunner/SoundsWatcher.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/bugrunner/Sprite.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/test/TurnStile.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/jumpingjack/Brick.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/jumpingjack/BricksManager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/jumpingjack/ClipInfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/jumpingjack/ClipsLoader.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/jumpingjack/FireBallSprite.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/jumpingjack/ImagesLoader.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/jumpingjack/ImagesPlayer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/jumpingjack/ImagesPlayerWatcher.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/jumpingjack/JackPanel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/jumpingjack/JumperSprite.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/jumpingjack/JumpingJack.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/jumpingjack/MidiInfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/jumpingjack/MidisLoader.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/jumpingjack/Ribbon.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/jumpingjack/RibbonsManager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/jumpingjack/SoundsWatcher.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/example/jumpingjack/Sprite.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -55,24 +58,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/example/wormchase/Worm.java" />
-        <option value="$PROJECT_DIR$/src/com/example/wormchase/WormChaseApplet.html" />
-        <option value="$PROJECT_DIR$/src/com/example/wormchase/WormChaseApplet.java" />
-        <option value="$PROJECT_DIR$/src/com/example/wormchase/WormChase.java" />
-        <option value="$PROJECT_DIR$/src/com/example/wormchase/Obstacles.java" />
-        <option value="$PROJECT_DIR$/src/com/example/wormchase/WormPanel.java" />
-        <option value="$PROJECT_DIR$/src/com/example/test/ShowImage.java" />
-        <option value="$PROJECT_DIR$/src/com/example/imagesLoaderApplication/ImagesLoader.java" />
-        <option value="$PROJECT_DIR$/src/com/example/imagesLoaderApplication/ImagesPlayerWatcher.java" />
-        <option value="$PROJECT_DIR$/src/com/example/imagesLoaderApplication/ImageSFXs.java" />
-        <option value="$PROJECT_DIR$/src/com/example/imagesLoaderApplication/ImagesPlayer.java" />
-        <option value="$PROJECT_DIR$/src/com/example/imagesLoaderApplication/ImagesTests.java" />
-        <option value="$PROJECT_DIR$/src/com/example/test/Test7.java" />
-        <option value="$PROJECT_DIR$/src/com/example/mcdonalds/Bells.java" />
-        <option value="$PROJECT_DIR$/src/com/example/mcdonalds/PlaySound.java" />
-        <option value="$PROJECT_DIR$/src/com/example/mcdonalds/McDonald.java" />
-        <option value="$PROJECT_DIR$/src/com/example/soundplayer/SoundPlayer.java" />
-        <option value="$PROJECT_DIR$/src/com/example/soundplayer/PlayClip.java" />
         <option value="$PROJECT_DIR$/src/com/example/soundplayer/PlayClipBF.java" />
         <option value="$PROJECT_DIR$/src/com/example/soundplayer/BufferedPlayer.java" />
         <option value="$PROJECT_DIR$/src/com/example/soundplayer/PlayMidi.java" />
@@ -106,6 +91,24 @@
         <option value="$PROJECT_DIR$/src/com/example/bugrunner/MidisLoader.java" />
         <option value="$PROJECT_DIR$/src/com/example/bugrunner/BugRunner.java" />
         <option value="$PROJECT_DIR$/src/com/example/test/TurnStile.java" />
+        <option value="$PROJECT_DIR$/src/com/example/JackPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/example/jumpingjack/ImagesPlayerWatcher.java" />
+        <option value="$PROJECT_DIR$/src/com/example/jumpingjack/SoundsWatcher.java" />
+        <option value="$PROJECT_DIR$/src/com/example/jumpingjack/ClipInfo.java" />
+        <option value="$PROJECT_DIR$/src/com/example/jumpingjack/ClipsLoader.java" />
+        <option value="$PROJECT_DIR$/src/com/example/jumpingjack/ImagesLoader.java" />
+        <option value="$PROJECT_DIR$/src/com/example/jumpingjack/ImagesPlayer.java" />
+        <option value="$PROJECT_DIR$/src/com/example/jumpingjack/Sprite.java" />
+        <option value="$PROJECT_DIR$/src/com/example/jumpingjack/Brick.java" />
+        <option value="$PROJECT_DIR$/src/com/example/jumpingjack/JumperSprite.java" />
+        <option value="$PROJECT_DIR$/src/com/example/jumpingjack/FireBallSprite.java" />
+        <option value="$PROJECT_DIR$/src/com/example/jumpingjack/Ribbon.java" />
+        <option value="$PROJECT_DIR$/src/com/example/jumpingjack/RibbonsManager.java" />
+        <option value="$PROJECT_DIR$/src/com/example/jumpingjack/MidiInfo.java" />
+        <option value="$PROJECT_DIR$/src/com/example/jumpingjack/MidisLoader.java" />
+        <option value="$PROJECT_DIR$/src/com/example/jumpingjack/JumpingJack.java" />
+        <option value="$PROJECT_DIR$/src/com/example/jumpingjack/JackPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/example/jumpingjack/BricksManager.java" />
       </list>
     </option>
   </component>
@@ -140,6 +143,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -159,11 +163,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Killer Game Programming in Java_Andrew Davison" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Killer Game Programming in Java_Andrew Davison" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="jumpingjack" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -171,7 +181,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vecmath.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -195,7 +205,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BugRunner">
+  <component name="RunManager" selected="Application.JumpingJack">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -203,14 +213,14 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="BufferedPlayer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="BugRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.example.soundplayer.*" />
+          <option name="PATTERN" value="com.example.bugrunner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.example.soundplayer.BufferedPlayer" />
+      <option name="MAIN_CLASS_NAME" value="com.example.bugrunner.BugRunner" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -222,14 +232,14 @@
       <module name="Killer Game Programming in Java_Andrew Davison" />
       <envs />
     </configuration>
-    <configuration name="BugRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="JumpingJack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.example.bugrunner.*" />
+          <option name="PATTERN" value="com.example.jumpingjack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.example.bugrunner.BugRunner" />
+      <option name="MAIN_CLASS_NAME" value="com.example.jumpingjack.JumpingJack" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -373,19 +383,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.BufferedPlayer" />
-      <item index="1" class="java.lang.String" itemvalue="Application.LoadersTests" />
-      <item index="2" class="java.lang.String" itemvalue="Application.NotesSynth" />
-      <item index="3" class="java.lang.String" itemvalue="Application.SeqSynth" />
-      <item index="4" class="java.lang.String" itemvalue="Application.BugRunner" />
+      <item index="0" class="java.lang.String" itemvalue="Application.LoadersTests" />
+      <item index="1" class="java.lang.String" itemvalue="Application.NotesSynth" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SeqSynth" />
+      <item index="3" class="java.lang.String" itemvalue="Application.BugRunner" />
+      <item index="4" class="java.lang.String" itemvalue="Application.JumpingJack" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.BugRunner" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SeqSynth" />
-        <item index="2" class="java.lang.String" itemvalue="Application.NotesSynth" />
-        <item index="3" class="java.lang.String" itemvalue="Application.LoadersTests" />
-        <item index="4" class="java.lang.String" itemvalue="Application.BufferedPlayer" />
+        <item index="0" class="java.lang.String" itemvalue="Application.JumpingJack" />
+        <item index="1" class="java.lang.String" itemvalue="Application.BugRunner" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SeqSynth" />
+        <item index="3" class="java.lang.String" itemvalue="Application.NotesSynth" />
+        <item index="4" class="java.lang.String" itemvalue="Application.LoadersTests" />
       </list>
     </recent_temporary>
   </component>
@@ -461,18 +471,32 @@
       <workItem from="1521668817777" duration="30000" />
       <workItem from="1521708306680" duration="8857000" />
       <workItem from="1521721513632" duration="7960000" />
-      <workItem from="1521758395347" duration="3061000" />
+      <workItem from="1521758395347" duration="3280000" />
+      <workItem from="1521947011855" duration="8695000" />
+      <workItem from="1521960556951" duration="6105000" />
+      <workItem from="1521985907502" duration="3776000" />
+      <workItem from="1521999500909" duration="4164000" />
+      <workItem from="1522104136012" duration="8430000" />
+      <workItem from="1522156087905" duration="1125000" />
+      <workItem from="1522439089163" duration="762000" />
+      <workItem from="1522566324329" duration="13968000" />
+      <workItem from="1522611837814" duration="1507000" />
+      <workItem from="1522633388557" duration="10353000" />
+      <workItem from="1522646553951" duration="1752000" />
+      <workItem from="1522658000151" duration="11685000" />
+      <workItem from="1522716295022" duration="4992000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="366150000" />
+    <option name="totallyTimeSpent" value="443683000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1303" height="780" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -495,7 +519,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8018018" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -517,118 +540,11 @@
           </properties>
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/example/wormchase/WormPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5250">
-          <caret line="173" column="11" lean-forward="false" selection-start-line="173" selection-start-column="11" selection-end-line="173" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/wormchase/Obstacles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/wormchase/Worm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="177" column="0" lean-forward="false" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/test/ShowImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2214">
-          <caret line="123" column="0" lean-forward="true" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/imagesLoaderApplication/ImagesTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="223" column="55" lean-forward="true" selection-start-line="223" selection-start-column="55" selection-end-line="223" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/imagesLoaderApplication/ImagesLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="381" column="42" lean-forward="false" selection-start-line="381" selection-start-column="42" selection-end-line="381" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/imagesLoaderApplication/ImagesPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/imagesLoaderApplication/ImageSFXs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="409" column="0" lean-forward="false" selection-start-line="409" selection-start-column="0" selection-end-line="409" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/imagesLoaderApplication/ImagesPlayerWatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/test/Test7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/mcdonalds/Bells.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/mcdonalds/PlaySound.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="31" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/mcdonalds/McDonald.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="23" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/soundplayer.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/example/soundplayer/SoundPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="11" column="67" lean-forward="true" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/soundplayer/PlayClip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="85" column="25" lean-forward="true" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/soundplayer/Sounds/PlayClipBF.java" />
     <entry file="file://$PROJECT_DIR$/src/com/example/soundplayer/PlayClipBF.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -836,19 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="267" column="0" lean-forward="true" selection-start-line="267" selection-start-column="0" selection-end-line="267" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1566#1749#0" expanded="false" />
-            <element signature="e#1748#1749#0" expanded="false" />
-            <element signature="e#2146#2343#0" expanded="false" />
-            <element signature="e#2342#2343#0" expanded="false" />
-            <element signature="e#3609#3610#0" expanded="false" />
-            <element signature="e#3641#3642#0" expanded="false" />
-            <element signature="e#3672#3673#0" expanded="false" />
-            <element signature="e#3703#3704#0" expanded="false" />
-            <element signature="e#3733#3734#0" expanded="false" />
-            <element signature="e#3764#3765#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -856,11 +759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2480#2481#0" expanded="false" />
-            <element signature="e#2507#2508#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -868,11 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="169" column="0" lean-forward="true" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#3257#3258#0" expanded="false" />
-            <element signature="e#3285#3286#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -880,16 +773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="48" column="48" lean-forward="false" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1085#1086#0" expanded="true" />
-            <element signature="e#1151#1152#0" expanded="true" />
-            <element signature="e#1182#1183#0" expanded="true" />
-            <element signature="e#1246#1247#0" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
-            <element signature="e#1343#1344#0" expanded="true" />
-            <element signature="e#1373#1374#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -897,9 +780,158 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/jumpingjack/ImagesPlayerWatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="41" lean-forward="false" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/jumpingjack/SoundsWatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="52" lean-forward="false" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/jumpingjack/ClipInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="121" column="25" lean-forward="true" selection-start-line="121" selection-start-column="25" selection-end-line="121" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/jumpingjack/ClipsLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="119" column="0" lean-forward="true" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/jumpingjack/ImagesLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="465" column="0" lean-forward="true" selection-start-line="465" selection-start-column="0" selection-end-line="465" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/jumpingjack/ImagesPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="107" column="0" lean-forward="true" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/jumpingjack/Sprite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="58" column="29" lean-forward="false" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/jumpingjack/Ribbon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-786">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/jumpingjack/RibbonsManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/jumpingjack/MidiInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/jumpingjack/MidisLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="171" column="0" lean-forward="true" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/jumpingjack/BricksManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1056">
+          <caret line="292" column="27" lean-forward="false" selection-start-line="292" selection-start-column="27" selection-end-line="292" selection-end-column="27" />
           <folding>
-            <element signature="e#0#1087#0" expanded="true" />
+            <element signature="method#getStripImages#0;class#BricksManager#0" expanded="false" />
+            <element signature="method#getPrefix#0;class#BricksManager#0" expanded="false" />
+            <element signature="method#storeBricks#0;class#BricksManager#0" expanded="false" />
+            <element signature="method#initBricksInfo#0;class#BricksManager#0" expanded="false" />
+            <element signature="method#findNumBricks#0;class#BricksManager#0" expanded="false" />
+            <element signature="method#calcMapDimensions#0;class#BricksManager#0" expanded="false" />
+            <element signature="method#checkForGaps#0;class#BricksManager#0" expanded="false" />
+            <element signature="method#addBrickDetails#0;class#BricksManager#0" expanded="false" />
+            <element signature="method#createColumns#0;class#BricksManager#0" expanded="false" />
+            <element signature="e#9277#9278#0" expanded="true" />
+            <element signature="e#9308#9309#0" expanded="true" />
+            <element signature="e#9750#9751#0" expanded="true" />
+            <element signature="e#9781#9782#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/jumpingjack/Brick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="46" column="52" lean-forward="true" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
+          <folding>
+            <element signature="e#865#866#0" expanded="true" />
+            <element signature="e#924#925#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/jumpingjack/FireBallSprite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-376">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/jumpingjack/JumpingJack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1089#1090#0" expanded="true" />
+            <element signature="e#1119#1120#0" expanded="true" />
+            <element signature="e#1185#1186#0" expanded="true" />
+            <element signature="e#1216#1217#0" expanded="true" />
+            <element signature="e#1280#1281#0" expanded="true" />
+            <element signature="e#1311#1312#0" expanded="true" />
+            <element signature="e#1377#1378#0" expanded="true" />
+            <element signature="e#1407#1408#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/jumpingjack/JackPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4440">
+          <caret line="19" column="61" lean-forward="false" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/jumpingjack/JumperSprite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-250">
+          <caret line="123" column="33" lean-forward="true" selection-start-line="123" selection-start-column="33" selection-end-line="123" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
