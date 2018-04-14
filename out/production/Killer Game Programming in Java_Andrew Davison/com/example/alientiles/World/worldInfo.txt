@@ -1,0 +1,17 @@
+
+// world image info
+
+// name of the GIF holding the floor image (e.g. surface.gif)
+image surface
+
+// number of tiles (x,y)
+numTiles  16 23     
+
+// pixel dimensions of a single tile (width, height)
+dimTile 56 29
+
+// 'start of first even row' (x,y) coordinate
+evenRow 12 8
+
+// 'start of first odd row' (x,y) coordinate
+oddRow 40 23

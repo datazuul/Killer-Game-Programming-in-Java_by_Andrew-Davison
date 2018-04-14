@@ -1,0 +1,33 @@
+
+// imsInfo.txt images
+
+// tiles background
+// o world.gif
+o surface.gif
+
+// title/help screen
+o title.gif
+
+// bob's images
+o still.gif
+o nw.gif
+o ne.gif
+o se.gif
+o sw.gif
+
+// enenmy sprites
+o baddieStill.gif
+o baddieLeft.gif
+o baddieRight.gif
+
+// pickups
+o cup.gif
+o flowerPot.gif
+o watch.gif
+
+// blocks
+o column1.gif
+o column2.gif
+o pyramid.gif
+o pyramidBalls.gif
+o statue.gif

@@ -1,0 +1,15 @@
+
+
+// no-go and block hit
+slap slap.wav
+
+// alien hit
+hit ouch.wav
+
+// applause for game over
+applause clap.wav
+
+
+// pickups
+noPickup clank.wav
+gotPickup fnfare.wav

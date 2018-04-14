@@ -1,0 +1,42 @@
+
+// world objects
+
+// no-go areas
+// blue area (lake)
+n 3-3 3-4 4-4 5-4 3-5 4-5
+  3-6 4-6 3-7 4-7 3-8 4-8 2-9 #
+
+// a small pond :)
+n 5-11 #
+
+// bottom left danger zone (red)
+n 3-11 3-12 4-12 3-13 #
+
+// top right danger zone (red)
+n 11-5 11-6 12-6 11-7 #
+
+// bottom right danger zone (red)
+n 12-13 12-14 13-14 12-15 #
+
+
+// blocks
+b column1
+9-3 7-7 7-18 #
+
+b column2
+8-12 14-8 #
+
+b pyramid
+1-12 5-16 #
+
+b pyramidBalls
+6-11 12-3 #
+
+b statue
+14-13 #
+
+
+// pickups
+p cup 1-8
+p flowerPot 14-4
+p watch 4-20
