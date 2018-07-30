@@ -1,0 +1,17 @@
+Group: class javax.media.j3d.BranchGroup
+3 children
+  Leaf: class javax.media.j3d.Shape3D
+  Material Object:AmbientColor=(0.7, 0.7, 0.7) EmissiveColor=(0.0, 0.0, 0.0) DiffuseColor=(0.3, 0.3, 0.3) SpecularColor=(1.0, 1.0, 1.0) Shininess=0.6 LightingEnable=true ColorTarget=2
+    Geometry: class javax.media.j3d.TriangleArray
+    Vertex count: 1692
+  
+  Leaf: class javax.media.j3d.Shape3D
+  Material Object:AmbientColor=(0.7, 0.7, 0.7) EmissiveColor=(0.0, 0.0, 0.0) DiffuseColor=(0.3, 0.3, 0.3) SpecularColor=(1.0, 1.0, 1.0) Shininess=0.6 LightingEnable=true ColorTarget=2
+    Geometry: class javax.media.j3d.TriangleArray
+    Vertex count: 1692
+  
+  Leaf: class javax.media.j3d.Shape3D
+  Material Object:AmbientColor=(0.7, 0.7, 0.7) EmissiveColor=(0.0, 0.0, 0.0) DiffuseColor=(0.3, 0.3, 0.3) SpecularColor=(1.0, 1.0, 1.0) Shininess=0.6 LightingEnable=true ColorTarget=2
+    Geometry: class javax.media.j3d.TriangleArray
+    Vertex count: 1692
+  
