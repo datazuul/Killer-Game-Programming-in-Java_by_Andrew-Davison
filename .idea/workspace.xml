@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="336bb76c-3f91-4b72-9d94-9b65a2ecb8fb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/example/loader3D/CheckerFloor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/loader3D/ColouredTiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/loader3D/Loader3D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/loader3D/PropManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/loader3D/WrapLoader3D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/loaderInfo3D/CheckerFloor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/loaderInfo3D/ColouredTiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/loaderInfo3D/LoaderInfo3D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/loaderInfo3D/WrapLoaderInfo3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/lathe3D/CheckerFloor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/lathe3D/ColouredTiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/lathe3D/EllipseShape3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/lathe3D/Lathe3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/lathe3D/LatheCurve.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/lathe3D/LatheShape3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/lathe3D/RhodoneaShape3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/lathe3D/WrapLathe3D.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Killer Game Programming in Java_Andrew Davison.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Killer Game Programming in Java_Andrew Davison.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,66 +22,75 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Loader3D.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/example/loader3D/Loader3D.java">
+      <file leaf-file-name="Lathe3D.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/lathe3D/Lathe3D.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="190">
+              <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#Loader3D#0;class#Loader3D#0" />
-                <element signature="method#initGUI#0;class#Loader3D#0" />
-                <element signature="method#actionPerformed#0;class#Loader3D#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PropManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/loader3D/PropManager.java">
+      <file leaf-file-name="WrapLathe3D.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/lathe3D/WrapLathe3D.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1509">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="2698">
+              <caret line="154" column="75" selection-start-line="154" selection-start-column="75" selection-end-line="154" selection-end-column="75" />
               <folding>
-                <element signature="e#1143#1586#0" />
-                <element signature="e#1592#2920#0" />
-                <element signature="e#2926#3163#0" />
-                <element signature="e#3169#3754#0" />
-                <element signature="e#3790#3791#0" expanded="true" />
-                <element signature="e#3819#3820#0" expanded="true" />
-                <element signature="e#3826#4878#0" />
-                <element signature="e#4884#5096#0" />
-                <element signature="e#5102#5928#0" />
-                <element signature="e#5934#7121#0" />
-                <element signature="e#7127#7658#0" />
-                <element signature="e#7664#8080#0" />
-                <element signature="e#8324#8439#0" />
-                <element signature="e#9111#9642#0" />
-                <element signature="e#9648#9999#0" />
-                <element signature="e#10005#10356#0" />
-                <element signature="e#10362#10713#0" />
-                <element signature="e#11281#12173#0" />
-                <element signature="e#12179#12456#0" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WrapLoader3D.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/loader3D/WrapLoader3D.java">
+      <file leaf-file-name="LatheCurve.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/lathe3D/LatheCurve.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-264">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="76">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding>
-                <element signature="method#WrapLoader3D#0;class#WrapLoader3D#0" />
-                <element signature="method#createSceneGraph#0;class#WrapLoader3D#0" />
-                <element signature="method#lightScene#0;class#WrapLoader3D#0" />
-                <element signature="method#addBackground#0;class#WrapLoader3D#0" />
-                <element signature="method#orbitControls#0;class#WrapLoader3D#0" />
-                <element signature="method#initUserPosition#0;class#WrapLoader3D#0" />
-                <element signature="e#3836#3837#0" expanded="true" />
-                <element signature="e#3879#3880#0" expanded="true" />
+                <element signature="e#4619#4620#0" expanded="true" />
+                <element signature="e#4684#4685#0" expanded="true" />
+                <element signature="e#4720#4721#0" expanded="true" />
+                <element signature="e#4782#4783#0" expanded="true" />
+                <element signature="e#4818#4819#0" expanded="true" />
+                <element signature="e#4875#4876#0" expanded="true" />
+                <element signature="e#4911#4912#0" expanded="true" />
+                <element signature="e#4958#4959#0" expanded="true" />
+                <element signature="e#4989#4990#0" expanded="true" />
+                <element signature="e#5014#5015#0" expanded="true" />
+                <element signature="e#5045#5046#0" expanded="true" />
+                <element signature="e#5070#5071#0" expanded="true" />
+                <element signature="e#5103#5104#0" expanded="true" />
+                <element signature="e#5132#5133#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LatheShape3D.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/lathe3D/LatheShape3D.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="e#7884#7885#0" expanded="true" />
+                <element signature="e#7931#7932#0" expanded="true" />
+                <element signature="e#7991#7992#0" expanded="true" />
+                <element signature="e#8038#8039#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RhodoneaShape3D.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/lathe3D/RhodoneaShape3D.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -112,14 +119,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/example/jumpingjack/ClipsLoader.java" />
-        <option value="$PROJECT_DIR$/src/com/example/jumpingjack/ImagesLoader.java" />
-        <option value="$PROJECT_DIR$/src/com/example/jumpingjack/ImagesPlayer.java" />
-        <option value="$PROJECT_DIR$/src/com/example/jumpingjack/Sprite.java" />
-        <option value="$PROJECT_DIR$/src/com/example/jumpingjack/Brick.java" />
-        <option value="$PROJECT_DIR$/src/com/example/jumpingjack/JumperSprite.java" />
-        <option value="$PROJECT_DIR$/src/com/example/jumpingjack/FireBallSprite.java" />
-        <option value="$PROJECT_DIR$/src/com/example/jumpingjack/Ribbon.java" />
         <option value="$PROJECT_DIR$/src/com/example/jumpingjack/RibbonsManager.java" />
         <option value="$PROJECT_DIR$/src/com/example/jumpingjack/MidiInfo.java" />
         <option value="$PROJECT_DIR$/src/com/example/jumpingjack/MidisLoader.java" />
@@ -163,6 +162,14 @@
         <option value="$PROJECT_DIR$/src/com/example/loader3D/CheckerFloor.java" />
         <option value="$PROJECT_DIR$/src/com/example/loader3D/WrapLoader3D.java" />
         <option value="$PROJECT_DIR$/src/com/example/loader3D/Loader3D.java" />
+        <option value="$PROJECT_DIR$/src/com/example/lathe3D/ColouredTiles.java" />
+        <option value="$PROJECT_DIR$/src/com/example/lathe3D/CheckerFloor.java" />
+        <option value="$PROJECT_DIR$/src/com/example/lathe3D/LatheCurve.java" />
+        <option value="$PROJECT_DIR$/src/com/example/lathe3D/LatheShape3D.java" />
+        <option value="$PROJECT_DIR$/src/com/example/lathe3D/EllipseShape3D.java" />
+        <option value="$PROJECT_DIR$/src/com/example/lathe3D/RhodoneaShape3D.java" />
+        <option value="$PROJECT_DIR$/src/com/example/lathe3D/Lathe3D.java" />
+        <option value="$PROJECT_DIR$/src/com/example/lathe3D/WrapLathe3D.java" />
       </list>
     </option>
   </component>
@@ -189,7 +196,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -214,7 +221,7 @@
               <item name="Killer Game Programming in Java_Andrew Davison" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="loader3D" type="462c0819:PsiDirectoryNode" />
+              <item name="lathe3D" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Killer Game Programming in Java_Andrew Davison" type="b2602c69:ProjectViewProjectNode" />
@@ -224,7 +231,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -256,7 +263,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Loader3D">
+  <component name="RunManager" selected="Application.Lathe3D">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -282,13 +289,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Hello3d" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.test.Hello3d" />
+    <configuration name="Lathe3D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.lathe3D.Lathe3D" />
       <module name="Killer Game Programming in Java_Andrew Davison" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.test.*" />
+          <option name="PATTERN" value="com.example.lathe3D.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -358,18 +365,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Checkers3D" />
-      <item itemvalue="Application.Hello3d" />
       <item itemvalue="Application.Ball" />
       <item itemvalue="Application.LoaderInfo3D" />
       <item itemvalue="Application.Loader3D" />
+      <item itemvalue="Application.Lathe3D" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lathe3D" />
         <item itemvalue="Application.Loader3D" />
         <item itemvalue="Application.LoaderInfo3D" />
         <item itemvalue="Application.Checkers3D" />
         <item itemvalue="Application.Ball" />
-        <item itemvalue="Application.Hello3d" />
       </list>
     </recent_temporary>
   </component>
@@ -516,19 +523,33 @@
       <workItem from="1532429856499" duration="1504000" />
       <workItem from="1532735346621" duration="5447000" />
       <workItem from="1532741193341" duration="2566000" />
-      <workItem from="1532904855107" duration="4760000" />
+      <workItem from="1532904855107" duration="4775000" />
+      <workItem from="1533117251449" duration="2364000" />
+      <workItem from="1533133084169" duration="199000" />
+      <workItem from="1533165197765" duration="11144000" />
+      <workItem from="1533235292623" duration="2428000" />
+      <workItem from="1533295430471" duration="3069000" />
+      <workItem from="1533441491471" duration="1972000" />
+      <workItem from="1533547875262" duration="2280000" />
+      <workItem from="1533632946249" duration="313000" />
+      <workItem from="1533638473039" duration="1018000" />
+      <workItem from="1533642735058" duration="2952000" />
+      <workItem from="1533649037021" duration="661000" />
+      <workItem from="1533660154406" duration="3376000" />
+      <workItem from="1533664251161" duration="523000" />
+      <workItem from="1533689363835" duration="6758000" />
+      <workItem from="1533699666080" duration="708000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="621389000" />
+    <option name="totallyTimeSpent" value="661169000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32831326" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -550,6 +571,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32831326" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -573,66 +595,10 @@
           </properties>
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/example/jumpingjack/Sprite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1044">
-          <caret line="58" column="29" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/jumpingjack/Ribbon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-786">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/jumpingjack/RibbonsManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/jumpingjack/MidiInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/jumpingjack/MidisLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="171" lean-forward="true" selection-start-line="171" selection-end-line="171" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/jumpingjack/BricksManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1056">
-          <caret line="292" column="27" selection-start-line="292" selection-start-column="27" selection-end-line="292" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/jumpingjack/Brick.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="46" column="52" lean-forward="true" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/jumpingjack/FireBallSprite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-376">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/jumpingjack/JumpingJack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
@@ -909,20 +875,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/loader3D/WrapLoader3D.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/loader3D/Loader3D.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-264">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="method#WrapLoader3D#0;class#WrapLoader3D#0" />
-            <element signature="method#createSceneGraph#0;class#WrapLoader3D#0" />
-            <element signature="method#lightScene#0;class#WrapLoader3D#0" />
-            <element signature="method#addBackground#0;class#WrapLoader3D#0" />
-            <element signature="method#orbitControls#0;class#WrapLoader3D#0" />
-            <element signature="method#initUserPosition#0;class#WrapLoader3D#0" />
-            <element signature="e#3836#3837#0" expanded="true" />
-            <element signature="e#3879#3880#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="61">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
         </state>
       </provider>
     </entry>
@@ -930,40 +886,97 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1509">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/loader3D/WrapLoader3D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/lathe3D/ColouredTiles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/lathe3D/CheckerFloor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-817">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/lathe3D/EllipseShape3D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/lathe3D/Lathe3D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
           <folding>
-            <element signature="e#1143#1586#0" />
-            <element signature="e#1592#2920#0" />
-            <element signature="e#2926#3163#0" />
-            <element signature="e#3169#3754#0" />
-            <element signature="e#3790#3791#0" expanded="true" />
-            <element signature="e#3819#3820#0" expanded="true" />
-            <element signature="e#3826#4878#0" />
-            <element signature="e#4884#5096#0" />
-            <element signature="e#5102#5928#0" />
-            <element signature="e#5934#7121#0" />
-            <element signature="e#7127#7658#0" />
-            <element signature="e#7664#8080#0" />
-            <element signature="e#8324#8439#0" />
-            <element signature="e#9111#9642#0" />
-            <element signature="e#9648#9999#0" />
-            <element signature="e#10005#10356#0" />
-            <element signature="e#10362#10713#0" />
-            <element signature="e#11281#12173#0" />
-            <element signature="e#12179#12456#0" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/loader3D/Loader3D.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/lathe3D/WrapLathe3D.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="2698">
+          <caret line="154" column="75" selection-start-line="154" selection-start-column="75" selection-end-line="154" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Loader3D#0;class#Loader3D#0" />
-            <element signature="method#initGUI#0;class#Loader3D#0" />
-            <element signature="method#actionPerformed#0;class#Loader3D#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/lathe3D/LatheCurve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#4619#4620#0" expanded="true" />
+            <element signature="e#4684#4685#0" expanded="true" />
+            <element signature="e#4720#4721#0" expanded="true" />
+            <element signature="e#4782#4783#0" expanded="true" />
+            <element signature="e#4818#4819#0" expanded="true" />
+            <element signature="e#4875#4876#0" expanded="true" />
+            <element signature="e#4911#4912#0" expanded="true" />
+            <element signature="e#4958#4959#0" expanded="true" />
+            <element signature="e#4989#4990#0" expanded="true" />
+            <element signature="e#5014#5015#0" expanded="true" />
+            <element signature="e#5045#5046#0" expanded="true" />
+            <element signature="e#5070#5071#0" expanded="true" />
+            <element signature="e#5103#5104#0" expanded="true" />
+            <element signature="e#5132#5133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/lathe3D/LatheShape3D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="e#7884#7885#0" expanded="true" />
+            <element signature="e#7931#7932#0" expanded="true" />
+            <element signature="e#7991#7992#0" expanded="true" />
+            <element signature="e#8038#8039#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/lathe3D/RhodoneaShape3D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
