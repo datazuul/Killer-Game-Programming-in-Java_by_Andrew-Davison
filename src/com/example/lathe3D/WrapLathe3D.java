@@ -116,43 +116,44 @@ public class WrapLathe3D extends JPanel {
         displayLathe(latheShape3D1, -7.0f, -5.0f, "egg");
 
         System.out.println("Loading R texture");
-        TextureLoader textureLoader1 = new TextureLoader("textures/r.gif", null);
+        //TextureLoader textureLoader1 = new TextureLoader("textures/r.gif", null);
+        TextureLoader textureLoader1 = new TextureLoader("/media/mahedi/4ACA850ECA84F789/FALSE/WORKSPACE/JAVA/Killer Game Programming in Java_Andrew Davison/src/com/example/lathe3D/textures/r.gif", null);
         Texture rTex = textureLoader1.getTexture();
 
         System.out.println("Loading skin texture");
-        TextureLoader textureLoader2 = new TextureLoader("textures/skin.jpg", null);
+        TextureLoader textureLoader2 = new TextureLoader("/media/mahedi/4ACA850ECA84F789/FALSE/WORKSPACE/JAVA/Killer Game Programming in Java_Andrew Davison/src/com/example/lathe3D/textures/skin.jpg", null);
         Texture skinTex = textureLoader2.getTexture();
 
         System.out.println("Loading water texture");
-        TextureLoader textureLoader3 = new TextureLoader("textures/water.jpg", null);
+        TextureLoader textureLoader3 = new TextureLoader("/media/mahedi/4ACA850ECA84F789/FALSE/WORKSPACE/JAVA/Killer Game Programming in Java_Andrew Davison/src/com/example/lathe3D/textures/water.jpg", null);
         Texture waterTex = textureLoader3.getTexture();
 
         System.out.println("Loading metal plate texture");
-        TextureLoader textureLoader4 = new TextureLoader("textures/plate.jpg", null);
+        TextureLoader textureLoader4 = new TextureLoader("/media/mahedi/4ACA850ECA84F789/FALSE/WORKSPACE/JAVA/Killer Game Programming in Java_Andrew Davison/src/com/example/lathe3D/textures/plate.jpg", null);
         Texture plateTex = textureLoader4.getTexture();
 
         System.out.println("Loading brick texture");
-        TextureLoader textureLoader5 = new TextureLoader("textures/brick.gif", null);
+        TextureLoader textureLoader5 = new TextureLoader("/media/mahedi/4ACA850ECA84F789/FALSE/WORKSPACE/JAVA/Killer Game Programming in Java_Andrew Davison/src/com/example/lathe3D/textures/brick.gif", null);
         Texture brickTex = textureLoader5.getTexture();
 
         System.out.println("Loading lava texture");
-        TextureLoader textureLoader6 = new TextureLoader("textures/lava.jpg", null);
+        TextureLoader textureLoader6 = new TextureLoader("/media/mahedi/4ACA850ECA84F789/FALSE/WORKSPACE/JAVA/Killer Game Programming in Java_Andrew Davison/src/com/example/lathe3D/textures/lava.jpg", null);
         Texture lavaTex = textureLoader6.getTexture();
 
         System.out.println("Loading sky texture");
-        TextureLoader textureLoader7 = new TextureLoader("textures/sky.jpg", null);
+        TextureLoader textureLoader7 = new TextureLoader("/media/mahedi/4ACA850ECA84F789/FALSE/WORKSPACE/JAVA/Killer Game Programming in Java_Andrew Davison/src/com/example/lathe3D/textures/sky.jpg", null);
         Texture skyTex = textureLoader7.getTexture();
 
         System.out.println("Loading cobbles texture");
-        TextureLoader textureLoader8 = new TextureLoader("textures/cobbles.jpg", null);
+        TextureLoader textureLoader8 = new TextureLoader("/media/mahedi/4ACA850ECA84F789/FALSE/WORKSPACE/JAVA/Killer Game Programming in Java_Andrew Davison/src/com/example/lathe3D/textures/cobbles.jpg", null);
         Texture cobblesTex = textureLoader8.getTexture();
 
         System.out.println("Loading bark texture");
-        TextureLoader textureLoader9 = new TextureLoader("textures/bark1.jpg", null);
+        TextureLoader textureLoader9 = new TextureLoader("/media/mahedi/4ACA850ECA84F789/FALSE/WORKSPACE/JAVA/Killer Game Programming in Java_Andrew Davison/src/com/example/lathe3D/textures/bark1.jpg", null);
         Texture barkTex = textureLoader9.getTexture();
 
         System.out.println("Loading swirled texture");
-        TextureLoader textureLoader10 = new TextureLoader("textures/swirled.jpg", null);
+        TextureLoader textureLoader10 = new TextureLoader("/media/mahedi/4ACA850ECA84F789/FALSE/WORKSPACE/JAVA/Killer Game Programming in Java_Andrew Davison/src/com/example/lathe3D/textures/swirled.jpg", null);
         Texture swirledTex = textureLoader10.getTexture();
 
         double xsIn15[] = {0, 0.1, 0.7, 0};

@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="336bb76c-3f91-4b72-9d94-9b65a2ecb8fb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/example/lathe3D/CheckerFloor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/lathe3D/ColouredTiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/lathe3D/EllipseShape3D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/lathe3D/Lathe3D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/lathe3D/LatheCurve.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/lathe3D/LatheShape3D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/lathe3D/RhodoneaShape3D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/lathe3D/WrapLathe3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/tour3D/AlienSprite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/tour3D/CheckerFloor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/tour3D/ColouredTiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/tour3D/Obstacles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/tour3D/PropManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/tour3D/Sprite3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/tour3D/TimeBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/tour3D/Tour3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/tour3D/TourSprite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/tour3D/TouristControls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/tour3D/WrapTour3D.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Killer Game Programming in Java_Andrew Davison/com/example/lathe3D/WrapLathe3D.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Killer Game Programming in Java_Andrew Davison/com/example/lathe3D/WrapLathe3D.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/lathe3D/WrapLathe3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/lathe3D/WrapLathe3D.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Lathe3D.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/lathe3D/Lathe3D.java">
+      <file leaf-file-name="Tour3D.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/tour3D/Tour3D.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+            <state relative-caret-position="152">
+              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,63 +39,89 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WrapLathe3D.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/lathe3D/WrapLathe3D.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2698">
-              <caret line="154" column="75" selection-start-line="154" selection-start-column="75" selection-end-line="154" selection-end-column="75" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LatheCurve.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/lathe3D/LatheCurve.java">
+      <file leaf-file-name="Sprite3D.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/tour3D/Sprite3D.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding>
-                <element signature="e#4619#4620#0" expanded="true" />
-                <element signature="e#4684#4685#0" expanded="true" />
-                <element signature="e#4720#4721#0" expanded="true" />
-                <element signature="e#4782#4783#0" expanded="true" />
-                <element signature="e#4818#4819#0" expanded="true" />
-                <element signature="e#4875#4876#0" expanded="true" />
-                <element signature="e#4911#4912#0" expanded="true" />
-                <element signature="e#4958#4959#0" expanded="true" />
-                <element signature="e#4989#4990#0" expanded="true" />
-                <element signature="e#5014#5015#0" expanded="true" />
-                <element signature="e#5045#5046#0" expanded="true" />
-                <element signature="e#5070#5071#0" expanded="true" />
-                <element signature="e#5103#5104#0" expanded="true" />
-                <element signature="e#5132#5133#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LatheShape3D.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/lathe3D/LatheShape3D.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="e#7884#7885#0" expanded="true" />
-                <element signature="e#7931#7932#0" expanded="true" />
-                <element signature="e#7991#7992#0" expanded="true" />
-                <element signature="e#8038#8039#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RhodoneaShape3D.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/example/lathe3D/RhodoneaShape3D.java">
+      <file leaf-file-name="TourSprite.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/tour3D/TourSprite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TouristControls.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/tour3D/TouristControls.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1872">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AlienSprite.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/tour3D/AlienSprite.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WrapTour3D.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/tour3D/WrapTour3D.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2062">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TimeBehavior.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/tour3D/TimeBehavior.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ColouredTiles.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/tour3D/ColouredTiles.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Obstacles.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/tour3D/Obstacles.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PropManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/tour3D/PropManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -111,6 +142,7 @@
       <find>isLo</find>
       <find>obt</find>
       <find>atPanel</find>
+      <find>mov</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -119,17 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/example/jumpingjack/RibbonsManager.java" />
-        <option value="$PROJECT_DIR$/src/com/example/jumpingjack/MidiInfo.java" />
-        <option value="$PROJECT_DIR$/src/com/example/jumpingjack/MidisLoader.java" />
-        <option value="$PROJECT_DIR$/src/com/example/jumpingjack/JumpingJack.java" />
-        <option value="$PROJECT_DIR$/src/com/example/jumpingjack/JackPanel.java" />
-        <option value="$PROJECT_DIR$/src/com/example/jumpingjack/BricksManager.java" />
-        <option value="$PROJECT_DIR$/src/com/example/alientiles/SoundsWatcher.java" />
-        <option value="$PROJECT_DIR$/src/com/example/alientiles/ClipInfo.java" />
-        <option value="$PROJECT_DIR$/src/com/example/alientiles/ClipsLoader.java" />
-        <option value="$PROJECT_DIR$/src/com/example/alientiles/ImagesLoader.java" />
-        <option value="$PROJECT_DIR$/src/com/example/alientiles/ImagesPlayerWatcher.java" />
         <option value="$PROJECT_DIR$/src/com/example/alientiles/ImagesPlayer.java" />
         <option value="$PROJECT_DIR$/src/com/example/alientiles/Sprite.java" />
         <option value="$PROJECT_DIR$/src/com/example/alientiles/TiledSprite.java" />
@@ -170,6 +191,17 @@
         <option value="$PROJECT_DIR$/src/com/example/lathe3D/RhodoneaShape3D.java" />
         <option value="$PROJECT_DIR$/src/com/example/lathe3D/Lathe3D.java" />
         <option value="$PROJECT_DIR$/src/com/example/lathe3D/WrapLathe3D.java" />
+        <option value="$PROJECT_DIR$/src/com/example/tour3D/Obstacles.java" />
+        <option value="$PROJECT_DIR$/src/com/example/tour3D/PropManager.java" />
+        <option value="$PROJECT_DIR$/src/com/example/tour3D/Sprite3D.java" />
+        <option value="$PROJECT_DIR$/src/com/example/tour3D/TourSprite.java" />
+        <option value="$PROJECT_DIR$/src/com/example/tour3D/ColouredTiles.java" />
+        <option value="$PROJECT_DIR$/src/com/example/tour3D/CheckerFloor.java" />
+        <option value="$PROJECT_DIR$/src/com/example/tour3D/AlienSprite.java" />
+        <option value="$PROJECT_DIR$/src/com/example/tour3D/TimeBehavior.java" />
+        <option value="$PROJECT_DIR$/src/com/example/tour3D/TouristControls.java" />
+        <option value="$PROJECT_DIR$/src/com/example/tour3D/Tour3D.java" />
+        <option value="$PROJECT_DIR$/src/com/example/tour3D/WrapTour3D.java" />
       </list>
     </option>
   </component>
@@ -197,7 +229,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,7 +253,7 @@
               <item name="Killer Game Programming in Java_Andrew Davison" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="lathe3D" type="462c0819:PsiDirectoryNode" />
+              <item name="tour3D" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Killer Game Programming in Java_Andrew Davison" type="b2602c69:ProjectViewProjectNode" />
@@ -231,7 +263,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -263,20 +295,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Lathe3D">
+  <component name="RunManager" selected="Application.Tour3D">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-    </configuration>
-    <configuration name="Ball" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.test.Ball" />
-      <module name="Killer Game Programming in Java_Andrew Davison" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration name="Checkers3D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.checkers3d.Checkers3D" />
@@ -318,6 +339,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.loaderInfo3D.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Tour3D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.tour3D.Tour3D" />
+      <module name="Killer Game Programming in Java_Andrew Davison" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.tour3D.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -365,18 +397,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Checkers3D" />
-      <item itemvalue="Application.Ball" />
       <item itemvalue="Application.LoaderInfo3D" />
       <item itemvalue="Application.Loader3D" />
       <item itemvalue="Application.Lathe3D" />
+      <item itemvalue="Application.Tour3D" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Tour3D" />
         <item itemvalue="Application.Lathe3D" />
         <item itemvalue="Application.Loader3D" />
         <item itemvalue="Application.LoaderInfo3D" />
         <item itemvalue="Application.Checkers3D" />
-        <item itemvalue="Application.Ball" />
       </list>
     </recent_temporary>
   </component>
@@ -538,12 +570,26 @@
       <workItem from="1533660154406" duration="3376000" />
       <workItem from="1533664251161" duration="523000" />
       <workItem from="1533689363835" duration="6758000" />
-      <workItem from="1533699666080" duration="708000" />
+      <workItem from="1533699666080" duration="7872000" />
+      <workItem from="1533732043536" duration="1540000" />
+      <workItem from="1533894072544" duration="2920000" />
+      <workItem from="1533975002381" duration="3400000" />
+      <workItem from="1533988279742" duration="3581000" />
+      <workItem from="1534030407380" duration="7877000" />
+      <workItem from="1534060226959" duration="2325000" />
+      <workItem from="1534068353768" duration="2377000" />
+      <workItem from="1534075443010" duration="2039000" />
+      <workItem from="1534155376968" duration="1773000" />
+      <workItem from="1534162512613" duration="1439000" />
+      <workItem from="1534187693681" duration="8608000" />
+      <workItem from="1534241459934" duration="1091000" />
+      <workItem from="1534248328041" duration="1087000" />
+      <workItem from="1534272544356" duration="747000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="661169000" />
+    <option name="totallyTimeSpent" value="709137000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
@@ -599,83 +645,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/example/jumpingjack/JumpingJack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/jumpingjack/JackPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4440">
-          <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/jumpingjack/JumperSprite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-250">
-          <caret line="123" column="33" lean-forward="true" selection-start-line="123" selection-start-column="33" selection-end-line="123" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/imagesloaderapplication/ImagesTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/imagesloaderapplication/ImageSFXs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/alientiles/SoundsWatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/alientiles/ClipInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2430">
-          <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/alientiles/ClipsLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/alientiles/ImagesLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1083">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/alientiles/ImagesPlayerWatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/alientiles/ImagesPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1944">
-          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/alientiles/Sprite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
@@ -917,46 +886,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/lathe3D/Lathe3D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/lathe3D/WrapLathe3D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2698">
-          <caret line="154" column="75" selection-start-line="154" selection-start-column="75" selection-end-line="154" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/lathe3D/LatheCurve.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/lathe3D/RhodoneaShape3D.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#4619#4620#0" expanded="true" />
-            <element signature="e#4684#4685#0" expanded="true" />
-            <element signature="e#4720#4721#0" expanded="true" />
-            <element signature="e#4782#4783#0" expanded="true" />
-            <element signature="e#4818#4819#0" expanded="true" />
-            <element signature="e#4875#4876#0" expanded="true" />
-            <element signature="e#4911#4912#0" expanded="true" />
-            <element signature="e#4958#4959#0" expanded="true" />
-            <element signature="e#4989#4990#0" expanded="true" />
-            <element signature="e#5014#5015#0" expanded="true" />
-            <element signature="e#5045#5046#0" expanded="true" />
-            <element signature="e#5070#5071#0" expanded="true" />
-            <element signature="e#5103#5104#0" expanded="true" />
-            <element signature="e#5132#5133#0" expanded="true" />
-          </folding>
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -964,19 +897,113 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/lathe3D/LatheCurve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/lathe3D/Lathe3D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/lathe3D/WrapLathe3D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="168" column="43" lean-forward="true" selection-start-line="168" selection-start-column="43" selection-end-line="168" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/tour3D/CheckerFloor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/tour3D/ColouredTiles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/tour3D/Obstacles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/tour3D/PropManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/tour3D/Tour3D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
           <folding>
-            <element signature="e#7884#7885#0" expanded="true" />
-            <element signature="e#7931#7932#0" expanded="true" />
-            <element signature="e#7991#7992#0" expanded="true" />
-            <element signature="e#8038#8039#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/lathe3D/RhodoneaShape3D.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/tour3D/Sprite3D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/tour3D/AlienSprite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/tour3D/TourSprite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/tour3D/TouristControls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1872">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/tour3D/WrapTour3D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2062">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/tour3D/TimeBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>

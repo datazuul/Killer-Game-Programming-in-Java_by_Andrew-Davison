@@ -1,0 +1,4 @@
+Coolrobo.3ds
+-p 0 1.45 0
+-r 
+-s 1
