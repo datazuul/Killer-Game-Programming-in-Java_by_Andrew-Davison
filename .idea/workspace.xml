@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="336bb76c-3f91-4b72-9d94-9b65a2ecb8fb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/example/particles3D/CheckerFloor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/particles3D/ColouredTiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/particles3D/LineParticles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/particles3D/Particles3D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/particles3D/PointParticles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/particles3D/QuadParticles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/particles3D/WrapParticles3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/flocking3D/Boid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/flocking3D/BoidShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/flocking3D/BoidsList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/flocking3D/CheckerFloor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/flocking3D/ColouredTiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/flocking3D/FlockBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/flocking3D/Flocking3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/flocking3D/Obstacles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/flocking3D/PredatorBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/flocking3D/PredatorBoid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/flocking3D/PreyBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/flocking3D/PreyBoid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/flocking3D/WrapFlocking3D.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,25 +27,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Particles3D.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/example/particles3D/Particles3D.java">
+      <file leaf-file-name="Flocking3D.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/flocking3D/Flocking3D.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="156">
+              <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1780#1781#0" expanded="true" />
-                <element signature="e#1812#1813#0" expanded="true" />
+                <element signature="e#1667#1668#0" expanded="true" />
+                <element signature="e#1698#1699#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuadParticles.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/particles3D/QuadParticles.java">
+      <file leaf-file-name="BoidsList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/flocking3D/BoidsList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="76">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PredatorBehavior.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/flocking3D/PredatorBehavior.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-380">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PreyBehavior.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/flocking3D/PreyBehavior.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-528">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FlockBehavior.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/flocking3D/FlockBehavior.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1668">
+              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,19 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/example/loader3D/WrapLoader3D.java" />
-        <option value="$PROJECT_DIR$/src/com/example/loader3D/Loader3D.java" />
-        <option value="$PROJECT_DIR$/src/com/example/lathe3D/ColouredTiles.java" />
-        <option value="$PROJECT_DIR$/src/com/example/lathe3D/CheckerFloor.java" />
-        <option value="$PROJECT_DIR$/src/com/example/lathe3D/LatheCurve.java" />
-        <option value="$PROJECT_DIR$/src/com/example/lathe3D/LatheShape3D.java" />
-        <option value="$PROJECT_DIR$/src/com/example/lathe3D/EllipseShape3D.java" />
-        <option value="$PROJECT_DIR$/src/com/example/lathe3D/RhodoneaShape3D.java" />
-        <option value="$PROJECT_DIR$/src/com/example/lathe3D/Lathe3D.java" />
-        <option value="$PROJECT_DIR$/src/com/example/lathe3D/WrapLathe3D.java" />
-        <option value="$PROJECT_DIR$/src/com/example/tour3D/Obstacles.java" />
-        <option value="$PROJECT_DIR$/src/com/example/tour3D/PropManager.java" />
-        <option value="$PROJECT_DIR$/src/com/example/tour3D/Sprite3D.java" />
         <option value="$PROJECT_DIR$/src/com/example/tour3D/TourSprite.java" />
         <option value="$PROJECT_DIR$/src/com/example/tour3D/ColouredTiles.java" />
         <option value="$PROJECT_DIR$/src/com/example/tour3D/CheckerFloor.java" />
@@ -123,6 +146,19 @@
         <option value="$PROJECT_DIR$/src/com/example/particles3D/WrapParticles3D.java" />
         <option value="$PROJECT_DIR$/src/com/example/particles3D/QuadParticles.java" />
         <option value="$PROJECT_DIR$/src/com/example/particles3D/Particles3D.java" />
+        <option value="$PROJECT_DIR$/src/com/example/flocking3D/ColouredTiles.java" />
+        <option value="$PROJECT_DIR$/src/com/example/flocking3D/CheckerFloor.java" />
+        <option value="$PROJECT_DIR$/src/com/example/flocking3D/Obstacles.java" />
+        <option value="$PROJECT_DIR$/src/com/example/flocking3D/BoidShape.java" />
+        <option value="$PROJECT_DIR$/src/com/example/flocking3D/Boid.java" />
+        <option value="$PROJECT_DIR$/src/com/example/flocking3D/BoidsList.java" />
+        <option value="$PROJECT_DIR$/src/com/example/flocking3D/FlockBehavior.java" />
+        <option value="$PROJECT_DIR$/src/com/example/flocking3D/PreyBehavior.java" />
+        <option value="$PROJECT_DIR$/src/com/example/flocking3D/PredatorBehavior.java" />
+        <option value="$PROJECT_DIR$/src/com/example/flocking3D/WrapFlocking3D.java" />
+        <option value="$PROJECT_DIR$/src/com/example/flocking3D/Flocking3D.java" />
+        <option value="$PROJECT_DIR$/src/com/example/flocking3D/PreyBoid.java" />
+        <option value="$PROJECT_DIR$/src/com/example/flocking3D/PredatorBoid.java" />
       </list>
     </option>
   </component>
@@ -149,9 +185,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,12 +209,14 @@
               <item name="Killer Game Programming in Java_Andrew Davison" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="particles3D" type="462c0819:PsiDirectoryNode" />
+              <item name="flocking3D" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -212,7 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Particles3D">
+  <component name="RunManager" selected="Application.Flocking3D">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -238,6 +274,17 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="Flocking3D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.flocking3D.Flocking3D" />
+      <module name="Killer Game Programming in Java_Andrew Davison" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.flocking3D.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="Mover3D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.mover3D.Mover3D" />
       <module name="Killer Game Programming in Java_Andrew Davison" />
@@ -256,17 +303,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.particles3D.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Tour3D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.tour3D.Tour3D" />
-      <module name="Killer Game Programming in Java_Andrew Davison" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.tour3D.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -313,19 +349,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Tour3D" />
       <item itemvalue="Application.AnimTour3D" />
       <item itemvalue="Application.AnimTourFS" />
       <item itemvalue="Application.Mover3D" />
       <item itemvalue="Application.Particles3D" />
+      <item itemvalue="Application.Flocking3D" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Flocking3D" />
         <item itemvalue="Application.Particles3D" />
         <item itemvalue="Application.Mover3D" />
         <item itemvalue="Application.AnimTourFS" />
         <item itemvalue="Application.AnimTour3D" />
-        <item itemvalue="Application.Tour3D" />
       </list>
     </recent_temporary>
   </component>
@@ -546,11 +582,23 @@
       <workItem from="1536078202801" duration="12225000" />
       <workItem from="1536129331692" duration="1521000" />
       <workItem from="1536131264663" duration="5777000" />
+      <workItem from="1536518934448" duration="115000" />
+      <workItem from="1536545257561" duration="11027000" />
+      <workItem from="1536557680622" duration="562000" />
+      <workItem from="1538107449079" duration="673000" />
+      <workItem from="1539520152515" duration="177000" />
+      <workItem from="1539686507441" duration="3848000" />
+      <workItem from="1540010176223" duration="2346000" />
+      <workItem from="1540014707895" duration="1769000" />
+      <workItem from="1540033089569" duration="5481000" />
+      <workItem from="1540047362140" duration="4962000" />
+      <workItem from="1540052673074" duration="3864000" />
+      <workItem from="1540080100651" duration="18704000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="847366000" />
+    <option name="totallyTimeSpent" value="900894000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
@@ -569,7 +617,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3298193" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24058416" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24058416" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -595,7 +643,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/example/wormchase/GamePanel.java</url>
+          <url />
           <line>151</line>
           <properties class="com.example.wormchase.GamePanel">
             <option name="EMULATED" value="true" />
@@ -606,97 +654,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/example/lathe3D/CheckerFloor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-817">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/lathe3D/EllipseShape3D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/lathe3D/RhodoneaShape3D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/lathe3D/LatheShape3D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/lathe3D/LatheCurve.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/lathe3D/Lathe3D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/lathe3D/WrapLathe3D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="168" column="43" lean-forward="true" selection-start-line="168" selection-start-column="43" selection-end-line="168" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/tour3D/CheckerFloor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/tour3D/ColouredTiles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/tour3D/Obstacles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/tour3D/PropManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/tour3D/TimeBehavior.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/tour3D/WrapTour3D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2048">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/tour3D/AlienSprite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -907,46 +864,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/particles3D/PointParticles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2831">
-          <caret line="149" lean-forward="true" selection-start-line="149" selection-end-line="149" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1315#1316#0" expanded="true" />
-            <element signature="e#1344#1345#0" expanded="true" />
-            <element signature="e#4310#4311#0" expanded="true" />
-            <element signature="e#4344#4345#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/particles3D/LineParticles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2926">
-          <caret line="156" lean-forward="true" selection-start-line="156" selection-end-line="156" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4495#4496#0" expanded="true" />
-            <element signature="e#4529#4530#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/awt/BorderLayout.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2751">
           <caret line="462" selection-start-line="462" selection-end-line="462" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/particles3D/WrapParticles3D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -960,25 +881,152 @@
     <entry file="file://$PROJECT_DIR$/out/production/Killer Game Programming in Java_Andrew Davison/com/example/particles3D/Particles3D.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/flocking3D/ColouredTiles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/flocking3D/CheckerFloor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/particles3D/Particles3D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/particles3D/PointParticles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1758">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/particles3D/LineParticles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53">
+          <caret line="113" column="32" selection-start-line="113" selection-start-column="32" selection-end-line="113" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/particles3D/QuadParticles.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="323">
+          <caret line="195" column="26" selection-start-line="195" selection-start-column="26" selection-end-line="195" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/particles3D/WrapParticles3D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/flocking3D/WrapFlocking3D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1511">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/particles3D/Particles3D.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/flocking3D/Obstacles.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="-884">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/flocking3D/BoidShape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-129">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/flocking3D/Boid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-190">
+          <caret line="126" column="16" lean-forward="true" selection-start-line="126" selection-start-column="16" selection-end-line="126" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1780#1781#0" expanded="true" />
-            <element signature="e#1812#1813#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/flocking3D/Flocking3D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1667#1668#0" expanded="true" />
+            <element signature="e#1698#1699#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/flocking3D/PreyBoid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/flocking3D/PredatorBoid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="7" column="72" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/flocking3D/BoidsList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/flocking3D/FlockBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1668">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/flocking3D/PreyBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-528">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/flocking3D/PredatorBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-380">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
