@@ -1,0 +1,5 @@
+range 0 500
+tree1.gif 90 200
+tree2.gif 90 200
+tree3.gif 90 200
+tree4.gif 90 200
