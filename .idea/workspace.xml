@@ -2,16 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="336bb76c-3f91-4b72-9d94-9b65a2ecb8fb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/example/terra3D/GroundCover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/terra3D/GroundShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/terra3D/HeightFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/terra3D/KeyBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/terra3D/Landscape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/terra3D/PropManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/terra3D/Terra3D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/terra3D/TexturedPlane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/terra3D/WrapTerra3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/trees3D/CheckerFloor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/trees3D/ColouredTile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/trees3D/GrowthBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/trees3D/ImageCsSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/trees3D/TreeLimb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/trees3D/Trees3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/trees3D/WrapTrees3D.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Killer Game Programming in Java_Andrew Davison/com/example/test/Ball.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Killer Game Programming in Java_Andrew Davison/com/example/test/Hello3d.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Killer Game Programming in Java_Andrew Davison/com/example/test/MyTimerTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Killer Game Programming in Java_Andrew Davison/com/example/test/PaintPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Killer Game Programming in Java_Andrew Davison/com/example/test/SleepAcc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Killer Game Programming in Java_Andrew Davison/com/example/test/StopWatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Killer Game Programming in Java_Andrew Davison/com/example/test/SwingTimerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Killer Game Programming in Java_Andrew Davison/com/example/test/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Killer Game Programming in Java_Andrew Davison/com/example/test/Test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Killer Game Programming in Java_Andrew Davison/com/example/test/Test3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Killer Game Programming in Java_Andrew Davison/com/example/test/Test4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Killer Game Programming in Java_Andrew Davison/com/example/test/Test5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Killer Game Programming in Java_Andrew Davison/com/example/test/Test6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Killer Game Programming in Java_Andrew Davison/com/example/test/Test7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Killer Game Programming in Java_Andrew Davison/com/example/test/TimerRes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Killer Game Programming in Java_Andrew Davison/com/example/test/UtilTimerClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/test/Ball.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/test/Hello3d.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/test/MyTimerTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/test/PaintPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/test/ShowImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/test/SleepAcc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/test/StopWatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/test/SwingTimerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/test/Test1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/test/Test2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/test/Test3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/test/Test4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/test/Test5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/test/Test6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/test/Test7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/test/TimerRes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/test/TurnStile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/test/UtilTimerClass.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +54,90 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Trees3D.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/trees3D/Trees3D.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckerFloor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/trees3D/CheckerFloor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ColouredTile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/trees3D/ColouredTile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GrowthBehavior.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/trees3D/GrowthBehavior.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1269">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageCsSeries.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/trees3D/ImageCsSeries.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1193">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeLimb.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/trees3D/TreeLimb.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-642">
+              <caret line="238" column="18" lean-forward="true" selection-start-line="238" selection-start-column="18" selection-end-line="238" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4961#4962#0" expanded="true" />
+                <element signature="e#4989#4990#0" expanded="true" />
+                <element signature="e#5099#5100#0" expanded="true" />
+                <element signature="e#5133#5134#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WrapTrees3D.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/trees3D/WrapTrees3D.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -47,13 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/example/flocking3D/PreyBehavior.java" />
-        <option value="$PROJECT_DIR$/src/com/example/flocking3D/PredatorBehavior.java" />
-        <option value="$PROJECT_DIR$/src/com/example/flocking3D/WrapFlocking3D.java" />
-        <option value="$PROJECT_DIR$/src/com/example/flocking3D/Flocking3D.java" />
-        <option value="$PROJECT_DIR$/src/com/example/flocking3D/PreyBoid.java" />
-        <option value="$PROJECT_DIR$/src/com/example/flocking3D/PredatorBoid.java" />
-        <option value="$PROJECT_DIR$/src/com/example/shooter3D/ColouredTiles.java" />
         <option value="$PROJECT_DIR$/src/com/example/shooter3D/CheckerFloor.java" />
         <option value="$PROJECT_DIR$/src/com/example/shooter3D/ImagesSeries.java" />
         <option value="$PROJECT_DIR$/src/com/example/shooter3D/LaserBeam.java" />
@@ -98,6 +206,13 @@
         <option value="$PROJECT_DIR$/src/com/example/terra3D/Landscape.java" />
         <option value="$PROJECT_DIR$/src/com/example/terra3D/PropManager.java" />
         <option value="$PROJECT_DIR$/src/com/example/terra3D/Terra3D.java" />
+        <option value="$PROJECT_DIR$/src/com/example/trees3D/ColouredTile.java" />
+        <option value="$PROJECT_DIR$/src/com/example/trees3D/CheckerFloor.java" />
+        <option value="$PROJECT_DIR$/src/com/example/trees3D/ImageCsSeries.java" />
+        <option value="$PROJECT_DIR$/src/com/example/trees3D/TreeLimb.java" />
+        <option value="$PROJECT_DIR$/src/com/example/trees3D/GrowthBehavior.java" />
+        <option value="$PROJECT_DIR$/src/com/example/trees3D/Trees3D.java" />
+        <option value="$PROJECT_DIR$/src/com/example/trees3D/WrapTrees3D.java" />
       </list>
     </option>
   </component>
@@ -124,7 +239,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,14 +260,21 @@
             </path>
             <path>
               <item name="Killer Game Programming in Java_Andrew Davison" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Killer Game Programming in Java_Andrew Davison" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="trees3D" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Killer Game Programming in Java_Andrew Davison" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -184,7 +306,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Terra3D">
+  <component name="RunManager" selected="Application.Trees3D">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -221,17 +343,6 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Shooter3D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.shooter3D.Shooter3D" />
-      <module name="Killer Game Programming in Java_Andrew Davison" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.shooter3D.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="Terra3D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.terra3D.Terra3D" />
       <module name="Killer Game Programming in Java_Andrew Davison" />
@@ -239,6 +350,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.terra3D.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Trees3D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.trees3D.Trees3D" />
+      <module name="Killer Game Programming in Java_Andrew Davison" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.trees3D.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -285,19 +407,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Shooter3D" />
       <item itemvalue="Application.FPShooter3D" />
       <item itemvalue="Application.Maze3D" />
       <item itemvalue="Application.FractalLand3D" />
       <item itemvalue="Application.Terra3D" />
+      <item itemvalue="Application.Trees3D" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Trees3D" />
         <item itemvalue="Application.Terra3D" />
         <item itemvalue="Application.FractalLand3D" />
         <item itemvalue="Application.Maze3D" />
         <item itemvalue="Application.FPShooter3D" />
-        <item itemvalue="Application.Shooter3D" />
       </list>
     </recent_temporary>
   </component>
@@ -560,14 +682,19 @@
       <workItem from="1541582968713" duration="4953000" />
       <workItem from="1541612693145" duration="5779000" />
       <workItem from="1541657558202" duration="3315000" />
+      <workItem from="1541699590363" duration="6303000" />
+      <workItem from="1541759504032" duration="2118000" />
+      <workItem from="1541808968158" duration="18710000" />
+      <workItem from="1541850320562" duration="4786000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1120696000" />
+    <option name="totallyTimeSpent" value="1152613000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -583,7 +710,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3298193" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.24058416" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49849397" weight="0.24058416" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.24058416" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -621,49 +748,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/example/flocking3D/BoidsList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/shooter3D/PointSound.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/example/flocking3D/Flocking3D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/shooter3D/CheckerFloor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1098">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/shooter3D/ColouredTiles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/shooter3D/LaserBeam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/shooter3D/ImagesSeries.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1112">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/shooter3D/ShootingBehaviour.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1758">
@@ -857,9 +941,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1991">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -895,9 +976,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2808">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -926,9 +1004,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="479">
           <caret line="81" column="1" lean-forward="true" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -957,9 +1032,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1193">
           <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -967,9 +1039,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="76" column="39" selection-start-line="76" selection-start-column="39" selection-end-line="76" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -977,9 +1046,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2708">
           <caret line="143" column="60" selection-start-line="143" selection-start-column="60" selection-end-line="143" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -987,10 +1053,73 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/trees3D/CheckerFloor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/trees3D/ColouredTile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/trees3D/Trees3D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/trees3D/WrapTrees3D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/trees3D/TreeLimb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-642">
+          <caret line="238" column="18" lean-forward="true" selection-start-line="238" selection-start-column="18" selection-end-line="238" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4961#4962#0" expanded="true" />
+            <element signature="e#4989#4990#0" expanded="true" />
+            <element signature="e#5099#5100#0" expanded="true" />
+            <element signature="e#5133#5134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/trees3D/GrowthBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1269">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/trees3D/ImageCsSeries.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1193">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
