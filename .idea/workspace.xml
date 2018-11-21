@@ -2,19 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="336bb76c-3f91-4b72-9d94-9b65a2ecb8fb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/example/chat/threaded/ChatClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/chat/threaded/ChatGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/chat/threaded/ChatServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/chat/threaded/ChatServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/chat/threaded/ChatWatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/chat/threaded/Chatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/chat/threaded/chatServlet/ChatGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/chat/threaded/chatServlet/ChatServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/chat/threaded/chatServlet/Chatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/chat/threaded/chatServlet/URLChat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/chat/threaded/chatServlet/URLChatWatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/chat/threaded/multicasting/MultiChat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/chat/threaded/multicasting/NameServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/fourbyfour/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/fourbyfour/FourByFour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/fourbyfour/PickDragBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/fourbyfour/Positions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/fourbyfour/WrapFourByFour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/netfourbyfour/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/netfourbyfour/NetFourByFour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/netfourbyfour/OverlayCanvas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/netfourbyfour/PickDragBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/netfourbyfour/Positions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/netfourbyfour/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/netfourbyfour/ServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/netfourbyfour/Watcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/netfourbyfour/WrapNetFourByFour.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ChatServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/chat/threaded/chatServlet/ChatServlet.java">
+      <file leaf-file-name="Server.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/netfourbyfour/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
+            <state relative-caret-position="190">
+              <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,15 +40,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="URLChat.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/example/chat/threaded/chatServlet/URLChat.java">
+      <file leaf-file-name="Board.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/netfourbyfour/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="218" lean-forward="true" selection-start-line="218" selection-end-line="218" />
+            <state relative-caret-position="38">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NetFourByFour.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/netfourbyfour/NetFourByFour.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OverlayCanvas.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/netfourbyfour/OverlayCanvas.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#967#1109#0" expanded="true" />
-                <element signature="e#1108#1109#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WrapNetFourByFour.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/netfourbyfour/WrapNetFourByFour.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,20 +107,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/example/fractalland3D/Landscape.java" />
-        <option value="$PROJECT_DIR$/src/com/example/fractalland3D/FractalMesh.java" />
-        <option value="$PROJECT_DIR$/src/com/example/terra3D/GroundShape.java" />
-        <option value="$PROJECT_DIR$/src/com/example/terra3D/TexturedPlane.java" />
-        <option value="$PROJECT_DIR$/src/com/example/terra3D/HeightFinder.java" />
-        <option value="$PROJECT_DIR$/src/com/example/terra3D/KeyBehavior.java" />
-        <option value="$PROJECT_DIR$/src/com/example/terra3D/GroundCover.java" />
-        <option value="$PROJECT_DIR$/src/com/example/terra3D/WrapTerra3D.java" />
-        <option value="$PROJECT_DIR$/src/com/example/terra3D/Landscape.java" />
-        <option value="$PROJECT_DIR$/src/com/example/terra3D/PropManager.java" />
-        <option value="$PROJECT_DIR$/src/com/example/terra3D/Terra3D.java" />
-        <option value="$PROJECT_DIR$/src/com/example/trees3D/ColouredTile.java" />
-        <option value="$PROJECT_DIR$/src/com/example/trees3D/CheckerFloor.java" />
-        <option value="$PROJECT_DIR$/src/com/example/trees3D/ImageCsSeries.java" />
         <option value="$PROJECT_DIR$/src/com/example/trees3D/TreeLimb.java" />
         <option value="$PROJECT_DIR$/src/com/example/trees3D/GrowthBehavior.java" />
         <option value="$PROJECT_DIR$/src/com/example/trees3D/Trees3D.java" />
@@ -129,6 +144,20 @@
         <option value="$PROJECT_DIR$/src/com/example/chat/threaded/chatServlet/ChatServlet.java" />
         <option value="$PROJECT_DIR$/src/com/example/chat/threaded/chatServlet/URLChatWatcher.java" />
         <option value="$PROJECT_DIR$/src/com/example/chat/threaded/chatServlet/URLChat.java" />
+        <option value="$PROJECT_DIR$/src/com/example/fourbyfour/Positions.java" />
+        <option value="$PROJECT_DIR$/src/com/example/fourbyfour/Board.java" />
+        <option value="$PROJECT_DIR$/src/com/example/fourbyfour/PickDragBehavior.java" />
+        <option value="$PROJECT_DIR$/src/com/example/fourbyfour/WrapFourByFour.java" />
+        <option value="$PROJECT_DIR$/src/com/example/fourbyfour/FourByFour.java" />
+        <option value="$PROJECT_DIR$/src/com/example/netfourbyfour/Positions.java" />
+        <option value="$PROJECT_DIR$/src/com/example/netfourbyfour/Board.java" />
+        <option value="$PROJECT_DIR$/src/com/example/netfourbyfour/OverlayCanvas.java" />
+        <option value="$PROJECT_DIR$/src/com/example/netfourbyfour/PickDragBehavior.java" />
+        <option value="$PROJECT_DIR$/src/com/example/netfourbyfour/Watcher.java" />
+        <option value="$PROJECT_DIR$/src/com/example/netfourbyfour/WrapNetFourByFour.java" />
+        <option value="$PROJECT_DIR$/src/com/example/netfourbyfour/NetFourByFour.java" />
+        <option value="$PROJECT_DIR$/src/com/example/netfourbyfour/Server.java" />
+        <option value="$PROJECT_DIR$/src/com/example/netfourbyfour/ServerHandler.java" />
       </list>
     </option>
   </component>
@@ -155,7 +184,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,22 +210,7 @@
               <item name="Killer Game Programming in Java_Andrew Davison" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="threaded" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Killer Game Programming in Java_Andrew Davison" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Killer Game Programming in Java_Andrew Davison" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="threaded" type="462c0819:PsiDirectoryNode" />
-              <item name="chatServlet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Killer Game Programming in Java_Andrew Davison" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Killer Game Programming in Java_Andrew Davison" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="networkingbasics" type="462c0819:PsiDirectoryNode" />
+              <item name="netfourbyfour" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Killer Game Programming in Java_Andrew Davison" type="b2602c69:ProjectViewProjectNode" />
@@ -204,8 +220,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -237,28 +251,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MultiChat">
+  <component name="RunManager" selected="Application.NetFourByFour">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="ChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.chat.threaded.ChatClient" />
+    <configuration name="FourByFour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.fourbyfour.FourByFour" />
       <module name="Killer Game Programming in Java_Andrew Davison" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.chat.threaded.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="ChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.chat.threaded.ChatServer" />
-      <module name="Killer Game Programming in Java_Andrew Davison" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.chat.threaded.*" />
+          <option name="PATTERN" value="com.example.fourbyfour.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -285,13 +288,24 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="TimeClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.networkingbasics.firewalls.TimeClient" />
+    <configuration name="NetFourByFour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.netfourbyfour.NetFourByFour" />
       <module name="Killer Game Programming in Java_Andrew Davison" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.networkingbasics.firewalls.*" />
+          <option name="PATTERN" value="com.example.netfourbyfour.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.netfourbyfour.Server" />
+      <module name="Killer Game Programming in Java_Andrew Davison" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.netfourbyfour.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -338,19 +352,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.TimeClient" />
-      <item itemvalue="Application.ChatServer" />
-      <item itemvalue="Application.ChatClient" />
       <item itemvalue="Application.NameServer" />
       <item itemvalue="Application.MultiChat" />
+      <item itemvalue="Application.FourByFour" />
+      <item itemvalue="Application.NetFourByFour" />
+      <item itemvalue="Application.Server" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NetFourByFour" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.FourByFour" />
         <item itemvalue="Application.MultiChat" />
         <item itemvalue="Application.NameServer" />
-        <item itemvalue="Application.ChatClient" />
-        <item itemvalue="Application.ChatServer" />
-        <item itemvalue="Application.TimeClient" />
       </list>
     </recent_temporary>
   </component>
@@ -627,12 +641,17 @@
       <workItem from="1542481699990" duration="5873000" />
       <workItem from="1542536070579" duration="16040000" />
       <workItem from="1542563261761" duration="8815000" />
-      <workItem from="1542621221457" duration="11529000" />
+      <workItem from="1542621221457" duration="14998000" />
+      <workItem from="1542650035710" duration="16072000" />
+      <workItem from="1542710965862" duration="2362000" />
+      <workItem from="1542734138565" duration="14080000" />
+      <workItem from="1542793061368" duration="16382000" />
+      <workItem from="1542821051811" duration="1885000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1251504000" />
+    <option name="totallyTimeSpent" value="1305754000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
@@ -640,6 +659,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32831326" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -666,7 +686,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.8018018" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32831326" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -690,104 +709,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/example/terra3D/TexturedPlane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="34" column="53" lean-forward="true" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/terra3D/HeightFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="81" column="1" lean-forward="true" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/fractalland3D/WrapFractalLand3D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/tour3D/Tour3D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/tour3D/WrapTour3D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/terra3D/WrapTerra3D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1193">
-          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/terra3D/PropManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="76" column="39" selection-start-line="76" selection-start-column="39" selection-end-line="76" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/terra3D/Landscape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2708">
-          <caret line="143" column="60" selection-start-line="143" selection-start-column="60" selection-end-line="143" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/terra3D/Terra3D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/trees3D/WrapTrees3D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/trees3D/TreeLimb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-642">
-          <caret line="238" column="18" lean-forward="true" selection-start-line="238" selection-start-column="18" selection-end-line="238" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/trees3D/ImageCsSeries.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1193">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/trees3D/GrowthBehavior.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1269">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/trees3D/ColouredTile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/trees3D/CheckerFloor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -965,9 +886,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
           <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -975,13 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-15">
           <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#714#876#0" expanded="true" />
-            <element signature="e#875#876#0" expanded="true" />
-            <element signature="e#3631#3632#0" expanded="true" />
-            <element signature="e#3663#3664#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1003,57 +914,160 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
           <caret line="241" column="41" lean-forward="true" selection-start-line="241" selection-start-column="41" selection-end-line="241" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1261#1409#0" expanded="true" />
-            <element signature="e#1408#1409#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/chat/threaded/chatServlet/Chatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/chat/threaded/chatServlet/ChatGroup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="94" column="56" selection-start-line="94" selection-start-column="56" selection-end-line="94" selection-end-column="56" />
+        <state relative-caret-position="-1520">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/chat/threaded/chatServlet/ChatServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/chat/threaded/chatServlet/Chatter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/chat/threaded/chatServlet/URLChatWatcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="-604">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/chat/threaded/chatServlet/URLChat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="218" lean-forward="true" selection-start-line="218" selection-end-line="218" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/chat/threaded/chatServlet/ChatServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/fourbyfour/WrapFourByFour.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/chat/threaded/chatServlet/URLChat.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/fourbyfour/Positions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="218" lean-forward="true" selection-start-line="218" selection-end-line="218" />
+        <state relative-caret-position="19">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/fourbyfour/PickDragBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1801">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/fourbyfour/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7748">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/fourbyfour/FourByFour.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/netfourbyfour/ServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1463">
+          <caret line="81" column="49" selection-start-line="81" selection-start-column="49" selection-end-line="81" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#967#1109#0" expanded="true" />
-            <element signature="e#1108#1109#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/netfourbyfour/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/netfourbyfour/OverlayCanvas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/netfourbyfour/PickDragBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/netfourbyfour/Positions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/netfourbyfour/Watcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/netfourbyfour/WrapNetFourByFour.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/netfourbyfour/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/netfourbyfour/NetFourByFour.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
         </state>
       </provider>
     </entry>
